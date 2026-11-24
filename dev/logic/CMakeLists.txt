@@ -134,18 +134,31 @@ elseif(APPLE)
 			remove_definitions(-msse)
 		else()
  		 set(XCODE_ATTRIBUTE_SDKROOT macosx CACHE STRING "" FORCE)
-		 set(CMAKE_OSX_SYSROOT macosx CACHE STRING "" FORCE)
-			if (NOT CMAKE_OSX_ARCHITECTURES)
-				set(CMAKE_OSX_ARCHITECTURES ${ARCHS_STANDARD_32_64_BIT})
-			endif()
+ 		 set(CMAKE_OSX_SYSROOT macosx CACHE STRING "" FORCE)
+ 			if (NOT CMAKE_OSX_ARCHITECTURES)
+ 				set(CMAKE_OSX_ARCHITECTURES ${ARCHS_STANDARD_32_64_BIT})
+ 			endif
          	
       set(XCODE_ATTRIBUTE_GCC_INLINES_ARE_PRIVATE_EXTERN[arch=x86_64] "YES")
 		endif()
 	endif()
-		
+        
 else()
 	message(STATUS "Platform: Unix/Linux")
-endif()
+		set(LORD_PLATFORM_LINUX TRUE)
+		set(LORD_STATIC TRUE CACHE BOOL "Forcing static build for linux" FORCE)
+		
+		set(CMAKE_C_FLAGS_RELEASE "${CMAKE_C_FLAGS_RELEASE} -g -std=c++17 --no-warnings -D_FORCE_INLINES")
+	    set(CMAKE_CXX_FLAGS_RELEASE "${CMAKE_CXX_FLAGS_RELEASE} -g -std=c++17 --no-warnings -D_FORCE_INLINES")
+	    set(CMAKE_C_FLAGS_DEBUG "${CMAKE_C_FLAGS_DEBUG} -g -O2 -std=c++17 -Wall -Wfatal-errors -Wextra -D_FORCE_INLINES")
+		set(CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG} -g -O2 -std=c++17 -Wall -Wfatal-errors -Wextra -D_FORCE_INLINES")
+        set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -g -std=c++17 --no-warnings -D_FORCE_INLINES")
+	
+	message(STATUS "Platform: Linux")
+	
+	endif()
+
+option(LORD_STATIC "Static build" TRUE)
 
 message(STATUS "Set Environment Variables...")
 
