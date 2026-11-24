@@ -1,0 +1,3120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Audio\FModApi.cpp">
+      <Filter>Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Audio\FModAudioEngine.cpp">
+      <Filter>Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\BattleSummary.cpp">
+      <Filter>Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\EntityRenders\EntityRender.cpp">
+      <Filter>Blockman\EntityRenders</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\EntityRenders\EntityRenderActorCannon.cpp">
+      <Filter>Blockman\EntityRenders</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\EntityRenders\EntityRenderActorNpc.cpp">
+      <Filter>Blockman\EntityRenders</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\EntityRenders\EntityRenderAircraft.cpp">
+      <Filter>Blockman\EntityRenders</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\EntityRenders\EntityRenderArrow.cpp">
+      <Filter>Blockman\EntityRenders</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\EntityRenders\EntityRenderBiped.cpp">
+      <Filter>Blockman\EntityRenders</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\EntityRenders\EntityRenderBird.cpp">
+      <Filter>Blockman\EntityRenders</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\EntityRenders\EntityRenderBlockmanEmpty.cpp">
+      <Filter>Blockman\EntityRenders</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\EntityRenders\EntityRenderBuildNpc.cpp">
+      <Filter>Blockman\EntityRenders</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\EntityRenders\EntityRenderBullet.cpp">
+      <Filter>Blockman\EntityRenders</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\EntityRenders\EntityRenderBulletin.cpp">
+      <Filter>Blockman\EntityRenders</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\EntityRenders\EntityRenderCreature.cpp">
+      <Filter>Blockman\EntityRenders</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\EntityRenders\EntityRenderCreatureBullet.cpp">
+      <Filter>Blockman\EntityRenders</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\EntityRenders\EntityRenderDecoration.cpp">
+      <Filter>Blockman\EntityRenders</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\EntityRenders\EntityRenderFishHook.cpp">
+      <Filter>Blockman\EntityRenders</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\EntityRenders\EntityRenderFloatingMount.cpp">
+      <Filter>Blockman\EntityRenders</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\EntityRenders\EntityRenderFlyingMount.cpp">
+      <Filter>Blockman\EntityRenders</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\EntityRenders\EntityRenderGrenade.cpp">
+      <Filter>Blockman\EntityRenders</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\EntityRenders\EntityRenderGunFlame.cpp">
+      <Filter>Blockman\EntityRenders</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\EntityRenders\EntityRenderItem.cpp">
+      <Filter>Blockman\EntityRenders</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\EntityRenders\EntityRenderLandNpc.cpp">
+      <Filter>Blockman\EntityRenders</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\EntityRenders\EntityRenderLiving.cpp">
+      <Filter>Blockman\EntityRenders</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\EntityRenders\EntityRenderLivingBase.cpp">
+      <Filter>Blockman\EntityRenders</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\EntityRenders\EntityRenderManager.cpp">
+      <Filter>Blockman\EntityRenders</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\EntityRenders\EntityRenderMerchant.cpp">
+      <Filter>Blockman\EntityRenders</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\EntityRenders\EntityRenderPlayer.cpp">
+      <Filter>Blockman\EntityRenders</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\EntityRenders\EntityRenderRankNpc.cpp">
+      <Filter>Blockman\EntityRenders</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\EntityRenders\EntityRenderSessionNpc.cpp">
+      <Filter>Blockman\EntityRenders</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\EntityRenders\EntityRenderSkillThrowable.cpp">
+      <Filter>Blockman\EntityRenders</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\EntityRenders\EntityRenderTNTPrimed.cpp">
+      <Filter>Blockman\EntityRenders</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\EntityRenders\EntityRenderThrowable.cpp">
+      <Filter>Blockman\EntityRenders</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\EntityRenders\EntityRenderVehicle.cpp">
+      <Filter>Blockman\EntityRenders</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\EntityRenders\EntityRenderable.cpp">
+      <Filter>Blockman\EntityRenders</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\EntityRenders\EntityTextureAtlas.cpp">
+      <Filter>Blockman\EntityRenders</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\CustomGuiWindow.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIAppShopAdItem.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIBedWarReclaimRuneItem.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIBedWarRuneItem.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIBedWarRuneProItem.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIBedWarRuneTypeItem.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIBedWarSeasonHonorItem.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIBedWarSeasonRankItem.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIBedWarSeasonRankPanel.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIBedWarSeasonRewardItem.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIBedWarSeasonRule.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIBuildWarGuessItem.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUICarProgress.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIChestLotteryItem.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIChestRewardItem.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUICommonTeamInfo.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUICustomPropItem.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIDesignationItem.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIEnchantmentPropItem.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIGunStoreInfos.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIGunStoreLevel.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIGunStoreModel.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIGunStoreModuleItem.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIGunStoreModulePanel.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIGunStorePanel.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIGunStoreTab.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIKillMsgItem.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIPixelAdInfo.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIPixelGunActiveChest.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIPixelGunDayActive.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIPixelGunGiftBagItem.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIPixelGunHallModeSelectMapItem.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIPixelGunMain.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIPixelGunSignInItem.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIPixelGunWeekActive.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUISeasonHonorItem.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUISeasonRankItem.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUISeasonRankPanel.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUISeasonRewardItem.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUISeasonRule.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIShopGoods.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIShopGridView.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUISkyBlockMain.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUISkyBlockRankItem.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUISkyBlockSignInItem.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUISkyBlockTaskDarePanel.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUISkyBlockTaskInfoItem.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUISkyBlockTaskMainLinePanel.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUISkyBlockTaskMainLineTab.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUISkyBlockTaskPanel.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUISkyBlockTaskRewardItem.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIStoreAttributeItem.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIStoreGunDetail.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIStoreGunItem.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIStoreGunUpgrade.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIStoreModuleDetail.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIStorePropDetail.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIStorePropItem.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIStorePropertyItem.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUISummaryItem.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUISuperPropItem.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUISwitchablePropItem.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUITaskDailyPanel.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUITaskInfoItem.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUITaskMainLinePanel.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUITaskMainLineTab.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUITaskPanel.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUITaskRewardItem.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIUpgradePropItem.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIWalkingDeadMain.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIWalkingDeadStoreGoodsPanel.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIWalkingDeadStoreItem.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIWalkingDeadStoreSupplyItem.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIWalkingDeadStoreSupplyPanel.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIWalkingDeadStoreSupplyPopup.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIWalkingDeadStoreTab.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIWalkingDeadSupplyDescItem.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIWindowMoveAnimator.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiActorWindow.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiAppShopItem.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiBirdActivityItem.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiBirdAtlasItem.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiBirdDressItem.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiBirdFeedItem.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiBirdFuse.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiBirdLotteryItem.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiBirdPack.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiBirdPackAndFuseItem.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiBirdPersonalShopItem.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiBirdTaskItem.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiBirdTool.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiBlockCityBuyFlyItem.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiBlockCityCharmRankItem.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiBlockCityChoosePaperItem.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiBlockCityElevatorItem.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiBlockCityFriendItem.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiBlockCityPortalItem.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiBlockCityRankItem.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiBlockCityReceiveFlowerItem.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiBlockCitySaveFileItem.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiBlockCityTigerLotteryItem.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiBlockFortItemInfo.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiBlockFortManorUpgradeItem.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiBlockFortStoreItem.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiCheckinItem.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiCommonTabGridView.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiDef.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiEffectViewOfObtainment.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiEntityWindow.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiItemSlot.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiItemStack.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiManorFurnitureItem.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiManorHouseTemplateItem.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiManorMessageItem.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiPlayerItem.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiRanchAchievementItem.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiRanchBuildFactoryQueue.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiRanchBuildFarmQueue.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiRanchBuildItem.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiRanchBuildOperation.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiRanchBuildProduct.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiRanchBuildRecipes.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiRanchBuildShortcut.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiRanchCommonItem.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiRanchCommunityItem.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiRanchFriendHelpItem.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiRanchFriendOperate.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiRanchFunctionItem.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiRanchItem.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiRanchMailItem.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiRanchOrderItem.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiRanchOrderOperate.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiRanchRankItem.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiRanchRankTab.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiRanchSellItem.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiRanchStorageItem.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiScrollableInventory.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiSelectableActionItem.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiSkyBlockAppShopItem.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiSkyBlockPrivilegeRewardItem.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiSkyBlockPrivilegeShopItem.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiSkyBlockSupemePrivilege.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiSlotTable.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiTeamResourcesItem.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiUrlImage.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\RootGuiLayout.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_HideAndSeekHallResult.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_SummaryPoint.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_appShop.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_armorPanelControl.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_baseMessage.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_bedWarRune.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_bedwarSeasonRank.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_bedwarSeasonReward.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_birdActivity.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_birdAtlas.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_birdGainTip.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_birdHelp.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_birdLottery.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_birdPackAndFuse.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_birdPersonalShop.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_birdStore.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_birdTaskTip.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_birdTip.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_blockCityBuyFlyTip.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_blockCityCharmRank.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_blockCityChoosePaper.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_blockCityElevator.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_blockCityFriend.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_blockCityHouseShop.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_blockCityMain.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_blockCityManor.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_blockCityPack.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_blockCityPortal.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_blockCityRank.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_blockCityRankAward.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_blockCityRankFriend.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_blockCityRankGlobal.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_blockCityReceiveFlower.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_blockCitySaveFile.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_blockCityStore.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_blockCityStoreBlock.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_blockCityStoreFurniture.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_blockCityStorePaper.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_blockCityTigerLottery.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_blockCityTip.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_blockFortBuildingInfo.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_blockFortMain.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_blockFortManorUpgrade.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_blockFortPack.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_blockFortPackInventory.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_blockFortStore.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_blockFortTip.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_blockLoading.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_bottomMessage.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_briefIntroduction.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_buildwarGrade.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_buildwarGuess.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_buildwarGuessResult.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_buyGoodsTip.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_carProgressTable.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_centerMessage.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_chat.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_checkin.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_chest.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_chestLottery.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_chestRewardDetail.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_commonTip.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_countdown.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_craftingPanelControl.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_customPropsPanel.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_deadSummary.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_deathSettlementControl.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_designationPanelControl.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_driveControl.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_enchantmentPanel.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_enchantmentPropsPanel.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_finalSummary.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_formulationPanelControl.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_furnacePanel.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_gameSetting.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_gameTipDialog.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_guideSystem.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_gunStore.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_jailBreakRoleChoice.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_killPanel.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_layout.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_levelUpPanel.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_loadingPage.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_lotteryChestDetail.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_mainControl.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_mainInventoryPanelControl.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_manor.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_manorFurniture.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_manorHouse.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_manorInfo.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_manorMessage.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_manorUpgrade.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_menu.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_miniMap.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_multiTipDialog.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_multiTipInteractionDialog.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_notification.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_occupationUnlock.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_outputConfig.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_personalShop.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_pixelChickenAward.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_pixelChickenMain.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_pixelGunGiftBagStore.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_pixelGunHallArmorUpgrade.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_pixelGunHallModelSelect.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_pixelGunIndieMain.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_pixelgun1v1.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_pixelgunSignIn.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_pixelgungamelvup.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_pixelgungameresult.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_pixelgunrevive.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_playerInfo.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_playerInventoryControl.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_playerList.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_playerOperation.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_ranch.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_ranchAchievement.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_ranchBuildFactory.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_ranchBuildFarm.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_ranchCommunity.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_ranchFactory.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_ranchFarming.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_ranchGainTip.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_ranchHouse.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_ranchHousePanel.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_ranchMain.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_ranchOrder.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_ranchProsperityRank.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_ranchRank.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_ranchSciencePanel.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_ranchStorage.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_ranchTimeTip.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_ranchTip.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_ranchUpgrade.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_rank.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_realTimeRank.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_renderItems.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_rewardResult.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_seasonRank.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_seasonReward.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_shop.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_skyBlockAppShop.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_skyBlockPrivilegeShop.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_skyBlockRank.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_skyBlockReciveNewPri.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_skyBlockSignIn.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_skyBlockTaskSystem.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_skyblockRewardDetail.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_skyblockRewardResult.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_skyblockUnlockTip.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_skyblock_productUpdate.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_summaryTip.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_superPropsPanel.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_superShop.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_supplyTip.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_switchablePropsPanel.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_taskSystem.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_teamResources.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_tigerLottery.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_tipDialog.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_tipMessage.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_toolBar.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_topMessage.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_tycoonVedioAd.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_upgradePropsPanel.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_videoAdTip.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_walkingDeadStore.cpp">
+      <Filter>Blockman\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\Model\ItemModelMgr.cpp">
+      <Filter>Blockman\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\Model\ModelBase.cpp">
+      <Filter>Blockman\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\Model\ModelBiped.cpp">
+      <Filter>Blockman\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\Model\ModelBox.cpp">
+      <Filter>Blockman\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\Model\ModelRenderer.cpp">
+      <Filter>Blockman\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\Model\ModelTileEntity.cpp">
+      <Filter>Blockman\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\Render\ActiveRenderInfo.cpp">
+      <Filter>Blockman\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\Render\ActorTextRenderer.cpp">
+      <Filter>Blockman\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\Render\CameraGod.cpp">
+      <Filter>Blockman\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\Render\CloudSerializer.cpp">
+      <Filter>Blockman\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\Render\Colorizer.cpp">
+      <Filter>Blockman\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\Render\GenSectionLOD.cpp">
+      <Filter>Blockman\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\Render\HeadTextRender.cpp">
+      <Filter>Blockman\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\Render\HeadTextRenderer.cpp">
+      <Filter>Blockman\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\Render\ItemRender.cpp">
+      <Filter>Blockman\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\Render\Rasterizer.cpp">
+      <Filter>Blockman\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\Render\RenderBlocks.cpp">
+      <Filter>Blockman\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\Render\RenderEntity.cpp">
+      <Filter>Blockman\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\Render\RenderGlobal.cpp">
+      <Filter>Blockman\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\Render\SectionRenderer.cpp">
+      <Filter>Blockman\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\Render\TessMeshCollection.cpp">
+      <Filter>Blockman\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\Render\TextureAtlas.cpp">
+      <Filter>Blockman\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\Render\VisualGraph.cpp">
+      <Filter>Blockman\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\Render\VisualTessThread.cpp">
+      <Filter>Blockman\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\Render\WallTextRenderer.cpp">
+      <Filter>Blockman\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\Render\WorldImageRender.cpp">
+      <Filter>Blockman\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cBlock\BlockLoaderClient.cpp">
+      <Filter>Blockman\cBlock</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cBlock\CustomBlockClient.cpp">
+      <Filter>Blockman\cBlock</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cBlock\cBlock.cpp">
+      <Filter>Blockman\cBlock</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cBlock\cBlockManager.cpp">
+      <Filter>Blockman\cBlock</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cChunk\ChunkClient.cpp">
+      <Filter>Blockman\cChunk</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cChunk\ChunkReadableStorageFileClient.cpp">
+      <Filter>Blockman\cChunk</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cChunk\ChunkServiceClient.cpp">
+      <Filter>Blockman\cChunk</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cEffects\EffectRenderer.cpp">
+      <Filter>Blockman\cEffects</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cEffects\EntityBreakingFx.cpp">
+      <Filter>Blockman\cEffects</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cEffects\EntityBubbleFx.cpp">
+      <Filter>Blockman\cEffects</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cEffects\EntityChestFx.cpp">
+      <Filter>Blockman\cEffects</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cEffects\EntityDiggingFx.cpp">
+      <Filter>Blockman\cEffects</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cEffects\EntityExplodeFx.cpp">
+      <Filter>Blockman\cEffects</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cEffects\EntityFx.cpp">
+      <Filter>Blockman\cEffects</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cEffects\EntityGunFlameFx.cpp">
+      <Filter>Blockman\cEffects</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cEffects\EntityLavaFx.cpp">
+      <Filter>Blockman\cEffects</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cEffects\EntityRainFx.cpp">
+      <Filter>Blockman\cEffects</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cEffects\EntitySmokeFx.cpp">
+      <Filter>Blockman\cEffects</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cEffects\EntitySpellFx.cpp">
+      <Filter>Blockman\cEffects</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cEntity\EntityActorCannonClient.cpp">
+      <Filter>Blockman\cEntity</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cEntity\EntityBulletClient.cpp">
+      <Filter>Blockman\cEntity</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cEntity\EntityFishHookClient.cpp">
+      <Filter>Blockman\cEntity</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cEntity\EntityGunFlame.cpp">
+      <Filter>Blockman\cEntity</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cEntity\EntityOtherPlayerMP.cpp">
+      <Filter>Blockman\cEntity</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cEntity\EntityPlayerSP.cpp">
+      <Filter>Blockman\cEntity</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cEntity\EntityPlayerSPMP.cpp">
+      <Filter>Blockman\cEntity</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cEntity\EntityVehicleClient.cpp">
+      <Filter>Blockman\cEntity</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cEntity\PlayerControlller.cpp">
+      <Filter>Blockman\cEntity</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cEntity\cEntityRtti.cpp">
+      <Filter>Blockman\cEntity</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cItem\cItem.cpp">
+      <Filter>Blockman\cItem</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cItem\cPotionManager.cpp">
+      <Filter>Blockman\cItem</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cTileEntity\TileEntityRenderMgr.cpp">
+      <Filter>Blockman\cTileEntity</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cTileEntity\TileEntityRenderable.cpp">
+      <Filter>Blockman\cTileEntity</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cTileEntity\TileEntityRenders.cpp">
+      <Filter>Blockman\cTileEntity</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cTrigger\TriggerModuleClient.cpp">
+      <Filter>Blockman\cTrigger</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cWorld\BlockChangeRecorderClient.cpp">
+      <Filter>Blockman\cWorld</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cWorld\Blockman.cpp">
+      <Filter>Blockman\cWorld</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cWorld\ImageManager.cpp">
+      <Filter>Blockman\cWorld</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cWorld\MapManager.cpp">
+      <Filter>Blockman\cWorld</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cWorld\PlayerInteractionManager.cpp">
+      <Filter>Blockman\cWorld</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cWorld\RankManager.cpp">
+      <Filter>Blockman\cWorld</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cWorld\SectionClient.cpp">
+      <Filter>Blockman\cWorld</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cWorld\SignTextsChangeRecorder.cpp">
+      <Filter>Blockman\cWorld</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cWorld\UnitTest.cpp">
+      <Filter>Blockman\cWorld</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cWorld\WorldClient.cpp">
+      <Filter>Blockman\cWorld</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\External\cJSON.c">
+      <Filter>External</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\External\inifile.cpp">
+      <Filter>External</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\GameAnalytics\GameAnalyticsRequest.cpp">
+      <Filter>GameAnalytics</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\GameAnalytics\GameAnalyticsSetting.cpp">
+      <Filter>GameAnalytics</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Network\ClientCommonDataSender.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Network\ClientHttpRequest.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Network\ClientNetwork.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Network\ClientNetworkCore.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Network\ClientNetworkRecver.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Network\ClientNetworkRecver_PacketRegister100.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Network\ClientNetworkRecver_PacketRegister200.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Network\ClientNetworkRecver_PacketRegisterEnd.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Network\ClientNetworkRecver_inner.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Network\ClientPacketSender.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Network\DataCache.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Network\S2CPacketHandles\S2CBirdSimulatorPacketHandles.cpp">
+      <Filter>Network\S2CPacketHandles</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Network\S2CPacketHandles\S2CBlockCityPacketHandles.cpp">
+      <Filter>Network\S2CPacketHandles</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Network\S2CPacketHandles\S2CBlockFortPacketHandles.cpp">
+      <Filter>Network\S2CPacketHandles</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Network\S2CPacketHandles\S2CChatPacketHandles.cpp">
+      <Filter>Network\S2CPacketHandles</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Network\S2CPacketHandles\S2CCommonDataPacketHandles.cpp">
+      <Filter>Network\S2CPacketHandles</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Network\S2CPacketHandles\S2CEntityPacketHandles.cpp">
+      <Filter>Network\S2CPacketHandles</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Network\S2CPacketHandles\S2CGamePacketHandles.cpp">
+      <Filter>Network\S2CPacketHandles</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Network\S2CPacketHandles\S2CInitPacketHandles.cpp">
+      <Filter>Network\S2CPacketHandles</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Network\S2CPacketHandles\S2CPlayerActionPacketHandles.cpp">
+      <Filter>Network\S2CPacketHandles</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Network\S2CPacketHandles\S2CRanchPacketHandles.cpp">
+      <Filter>Network\S2CPacketHandles</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Network\S2CPacketHandles\S2CStatusPacketHandles.cpp">
+      <Filter>Network\S2CPacketHandles</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Plugins\PluginManager.cpp">
+      <Filter>Plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Setting\ActionStateSetting.cpp">
+      <Filter>Setting</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Setting\AdvertSetting.cpp">
+      <Filter>Setting</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Setting\ArmorSetting.cpp">
+      <Filter>Setting</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Setting\BirdItemSetting.cpp">
+      <Filter>Setting</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Setting\BlockCityPortalSetting.cpp">
+      <Filter>Setting</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Setting\BlockCitySetting.cpp">
+      <Filter>Setting</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Setting\BlockFortItemSetting.cpp">
+      <Filter>Setting</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Setting\BriefIntroductionSetting.cpp">
+      <Filter>Setting</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Setting\ChestLotterySetting.cpp">
+      <Filter>Setting</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Setting\ClassificationSetting.cpp">
+      <Filter>Setting</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Setting\CustomItemSetting.cpp">
+      <Filter>Setting</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Setting\DesignationSetting.cpp">
+      <Filter>Setting</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Setting\FormulationSetting.cpp">
+      <Filter>Setting</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Setting\FunctionSetting.cpp">
+      <Filter>Setting</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Setting\GuideSystemSetting.cpp">
+      <Filter>Setting</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Setting\GunStoreSetting.cpp">
+      <Filter>Setting</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Setting\HelpSetting.cpp">
+      <Filter>Setting</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Setting\PixelGunGiftBagSetting.cpp">
+      <Filter>Setting</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Setting\RankLangSetting.cpp">
+      <Filter>Setting</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Setting\RewardSetting.cpp">
+      <Filter>Setting</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Setting\RuneSetting.cpp">
+      <Filter>Setting</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Setting\ScorePointSetting.cpp">
+      <Filter>Setting</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Setting\SeasonSetting.cpp">
+      <Filter>Setting</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Setting\SignInSetting.cpp">
+      <Filter>Setting</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Setting\SkyBlockAppShopSetting.cpp">
+      <Filter>Setting</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Setting\SkyBlockPrivilegeShopSetting.cpp">
+      <Filter>Setting</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Setting\SkyBlockTaskSystemSetting.cpp">
+      <Filter>Setting</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Setting\SkyblockSignInSetting.cpp">
+      <Filter>Setting</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Setting\StoreTabSetting.cpp">
+      <Filter>Setting</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Setting\TaskSystemSetting.cpp">
+      <Filter>Setting</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Setting\TeamInfoSetting.cpp">
+      <Filter>Setting</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Setting\WalkingDeadStoreSetting.cpp">
+      <Filter>Setting</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\ShellInterface.cpp">
+      <Filter>Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Util\BroadcastManager.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Util\ClientCmdMgr.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Util\ClientDataReport.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Util\FriendManager.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Util\LanguageManager.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Util\MailManager.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Util\RankManager.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Util\RedDotManager.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Util\SkillEffectManager.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Util\ThumbUpRecordManager.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Util\UICommon.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Util\UserManager.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\game.cpp">
+      <Filter>Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\iniFileObj.cpp">
+      <Filter>Logic</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Audio\FModApi.h">
+      <Filter>Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Audio\FModAudioEngine.h">
+      <Filter>Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\BattleSummary.h">
+      <Filter>Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\EntityRenders\EntityRender.h">
+      <Filter>Blockman\EntityRenders</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\EntityRenders\EntityRenderActorCannon.h">
+      <Filter>Blockman\EntityRenders</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\EntityRenders\EntityRenderActorNpc.h">
+      <Filter>Blockman\EntityRenders</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\EntityRenders\EntityRenderAircraft.h">
+      <Filter>Blockman\EntityRenders</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\EntityRenders\EntityRenderArrow.h">
+      <Filter>Blockman\EntityRenders</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\EntityRenders\EntityRenderBiped.h">
+      <Filter>Blockman\EntityRenders</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\EntityRenders\EntityRenderBird.h">
+      <Filter>Blockman\EntityRenders</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\EntityRenders\EntityRenderBlockmanEmpty.h">
+      <Filter>Blockman\EntityRenders</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\EntityRenders\EntityRenderBuildNpc.h">
+      <Filter>Blockman\EntityRenders</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\EntityRenders\EntityRenderBullet.h">
+      <Filter>Blockman\EntityRenders</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\EntityRenders\EntityRenderBulletin.h">
+      <Filter>Blockman\EntityRenders</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\EntityRenders\EntityRenderCreature.h">
+      <Filter>Blockman\EntityRenders</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\EntityRenders\EntityRenderCreatureBullet.h">
+      <Filter>Blockman\EntityRenders</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\EntityRenders\EntityRenderDecoration.h">
+      <Filter>Blockman\EntityRenders</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\EntityRenders\EntityRenderFishHook.h">
+      <Filter>Blockman\EntityRenders</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\EntityRenders\EntityRenderFloatingMount.h">
+      <Filter>Blockman\EntityRenders</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\EntityRenders\EntityRenderFlyingMount.h">
+      <Filter>Blockman\EntityRenders</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\EntityRenders\EntityRenderGrenade.h">
+      <Filter>Blockman\EntityRenders</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\EntityRenders\EntityRenderGunFlame.h">
+      <Filter>Blockman\EntityRenders</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\EntityRenders\EntityRenderItem.h">
+      <Filter>Blockman\EntityRenders</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\EntityRenders\EntityRenderLandNpc.h">
+      <Filter>Blockman\EntityRenders</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\EntityRenders\EntityRenderLiving.h">
+      <Filter>Blockman\EntityRenders</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\EntityRenders\EntityRenderLivingBase.h">
+      <Filter>Blockman\EntityRenders</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\EntityRenders\EntityRenderManager.h">
+      <Filter>Blockman\EntityRenders</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\EntityRenders\EntityRenderMerchant.h">
+      <Filter>Blockman\EntityRenders</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\EntityRenders\EntityRenderPlayer.h">
+      <Filter>Blockman\EntityRenders</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\EntityRenders\EntityRenderRankNpc.h">
+      <Filter>Blockman\EntityRenders</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\EntityRenders\EntityRenderSessionNpc.h">
+      <Filter>Blockman\EntityRenders</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\EntityRenders\EntityRenderSkillThrowable.h">
+      <Filter>Blockman\EntityRenders</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\EntityRenders\EntityRenderTNTPrimed.h">
+      <Filter>Blockman\EntityRenders</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\EntityRenders\EntityRenderThrowable.h">
+      <Filter>Blockman\EntityRenders</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\EntityRenders\EntityRenderVehicle.h">
+      <Filter>Blockman\EntityRenders</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\EntityRenders\EntityRenderable.h">
+      <Filter>Blockman\EntityRenders</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\EntityRenders\EntityTextureAtlas.h">
+      <Filter>Blockman\EntityRenders</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\CustomGuiWindow.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIAppShopAdItem.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIBedWarReclaimRuneItem.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIBedWarRuneItem.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIBedWarRuneProItem.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIBedWarRuneTypeItem.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIBedWarSeasonHonorItem.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIBedWarSeasonRankItem.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIBedWarSeasonRankPanel.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIBedWarSeasonRewardItem.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIBedWarSeasonRule.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIBuildWarGuessItem.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUICarProgress.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIChestLotteryItem.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIChestRewardItem.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUICommonTeamInfo.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUICustomPropItem.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIDesignationItem.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIEnchantmentPropItem.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIGunStoreInfos.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIGunStoreLevel.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIGunStoreModel.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIGunStoreModuleItem.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIGunStoreModulePanel.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIGunStorePanel.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIGunStoreTab.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIKillMsgItem.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIPixelAdInfo.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIPixelGunActiveChest.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIPixelGunDayActive.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIPixelGunGiftBagItem.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIPixelGunHallModeSelectMapItem.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIPixelGunMain.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIPixelGunSignInItem.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIPixelGunWeekActive.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUISeasonHonorItem.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUISeasonRankItem.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUISeasonRankPanel.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUISeasonRewardItem.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUISeasonRule.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIShopGoods.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIShopGridView.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUISkyBlockMain.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUISkyBlockRankItem.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUISkyBlockSignInItem.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUISkyBlockTaskDarePanel.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUISkyBlockTaskInfoItem.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUISkyBlockTaskMainLinePanel.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUISkyBlockTaskMainLineTab.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUISkyBlockTaskPanel.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUISkyBlockTaskRewardItem.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIStoreAttributeItem.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIStoreGunDetail.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIStoreGunItem.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIStoreGunUpgrade.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIStoreModuleDetail.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIStorePropDetail.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIStorePropItem.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIStorePropertyItem.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUISummaryItem.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUISuperPropItem.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUISwitchablePropItem.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUITaskDailyPanel.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUITaskInfoItem.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUITaskMainLinePanel.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUITaskMainLineTab.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUITaskPanel.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUITaskRewardItem.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIUpgradePropItem.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIWalkingDeadMain.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIWalkingDeadStoreGoodsPanel.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIWalkingDeadStoreItem.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIWalkingDeadStoreSupplyItem.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIWalkingDeadStoreSupplyPanel.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIWalkingDeadStoreSupplyPopup.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIWalkingDeadStoreTab.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIWalkingDeadSupplyDescItem.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIWindowMoveAnimator.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiActorWindow.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiAppShopItem.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiBirdActivityItem.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiBirdAtlasItem.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiBirdDressItem.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiBirdFeedItem.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiBirdFuse.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiBirdLotteryItem.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiBirdPack.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiBirdPackAndFuseItem.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiBirdPersonalShopItem.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiBirdTaskItem.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiBirdTool.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiBlockCityBuyFlyItem.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiBlockCityCharmRankItem.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiBlockCityChoosePaperItem.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiBlockCityElevatorItem.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiBlockCityFriendItem.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiBlockCityPortalItem.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiBlockCityRankItem.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiBlockCityReceiveFlowerItem.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiBlockCitySaveFileItem.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiBlockCityTigerLotteryItem.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiBlockFortItemInfo.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiBlockFortManorUpgradeItem.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiBlockFortStoreItem.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiCheckinItem.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiCommonTabGridView.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiDef.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiEffectViewOfObtainment.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiEntityWindow.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiItemSlot.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiItemStack.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiManorFurnitureItem.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiManorHouseTemplateItem.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiManorMessageItem.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiPlayerItem.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiRanchAchievementItem.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiRanchBuildFactoryQueue.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiRanchBuildFarmQueue.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiRanchBuildItem.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiRanchBuildOperation.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiRanchBuildProduct.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiRanchBuildRecipes.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiRanchBuildShortcut.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiRanchCommonItem.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiRanchCommunityItem.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiRanchFriendHelpItem.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiRanchFriendOperate.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiRanchFunctionItem.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiRanchItem.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiRanchMailItem.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiRanchOrderItem.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiRanchOrderOperate.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiRanchRankItem.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiRanchRankTab.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiRanchSellItem.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiRanchStorageItem.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiScrollableInventory.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiSelectableActionItem.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiSkyBlockAppShopItem.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiSkyBlockPrivilegeRewardItem.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiSkyBlockPrivilegeShopItem.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiSkyBlockSupemePrivilege.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiSlotTable.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiTeamResourcesItem.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiUrlImage.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\RootGuiLayout.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_HideAndSeekHallResult.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_appShop.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_armorPanelControl.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_baseMessage.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_bedWarRune.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_bedwarSeasonRank.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_bedwarSeasonReward.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_birdActivity.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_birdAtlas.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_birdGainTip.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_birdHelp.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_birdLottery.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_birdPackAndFuse.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_birdPersonalShop.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_birdStore.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_birdTaskTip.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_birdTip.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_blockCityBuyFlyTip.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_blockCityCharmRank.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_blockCityChoosePaper.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_blockCityElevator.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_blockCityFriend.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_blockCityHouseShop.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_blockCityMain.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_blockCityManor.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_blockCityPack.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_blockCityPortal.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_blockCityRank.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_blockCityRankAward.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_blockCityRankFriend.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_blockCityRankGlobal.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_blockCityReceiveFlower.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_blockCitySaveFile.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_blockCityStore.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_blockCityStoreBlock.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_blockCityStoreFurniture.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_blockCityStorePaper.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_blockCityTigerLottery.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_blockCityTip.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_blockFortBuildingInfo.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_blockFortMain.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_blockFortManorUpgrade.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_blockFortPack.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_blockFortPackInventory.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_blockFortStore.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_blockFortTip.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_blockLoading.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_bottomMessage.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_briefIntroduction.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_buildwarGrade.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_buildwarGuess.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_buildwarGuessResult.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_buyGoodsTip.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_carProgressTable.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_centerMessage.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_chat.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_checkin.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_chest.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_chestLottery.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_chestRewardDetail.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_commonTip.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_countdown.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_craftingPanelControl.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_customPropsPanel.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_deadSummary.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_deathSettlementControl.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_designationPanelControl.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_driveControl.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_enchantmentPanel.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_enchantmentPropsPanel.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_finalSummary.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_formulationPanelControl.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_furnacePanel.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_gameSetting.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_gameTipDialog.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_guideSystem.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_gunStore.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_jailBreakRoleChoice.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_killPanel.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_layout.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_levelUpPanel.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_loadingPage.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_lotteryChestDetail.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_mainControl.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_mainInventoryPanelControl.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_manor.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_manorFurniture.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_manorHouse.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_manorInfo.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_manorMessage.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_manorUpgrade.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_menu.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_miniMap.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_multiTipDialog.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_multiTipInteractionDialog.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_notification.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_occupationUnlock.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_outputConfig.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_personalShop.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_pixelChickenAward.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_pixelChickenMain.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_pixelGunGiftBagStore.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_pixelGunHallArmorUpgrade.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_pixelGunHallModelSelect.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_pixelGunIndieMain.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_pixelgun1v1.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_pixelgunSignIn.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_pixelgungamelvup.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_pixelgungameresult.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_pixelgunrevive.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_playerInfo.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_playerInventoryControl.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_playerList.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_playerOperation.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_ranch.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_ranchAchievement.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_ranchBuildFactory.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_ranchBuildFarm.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_ranchCommunity.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_ranchFactory.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_ranchFarming.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_ranchGainTip.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_ranchHouse.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_ranchHousePanel.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_ranchMain.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_ranchOrder.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_ranchProsperityRank.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_ranchRank.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_ranchSciencePanel.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_ranchStorage.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_ranchTimeTip.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_ranchTip.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_ranchUpgrade.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_rank.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_realTimeRank.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_renderItems.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_rewardResult.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_seasonRank.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_seasonReward.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_shop.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_skyBlockAppShop.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_skyBlockPrivilegeShop.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_skyBlockRank.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_skyBlockReciveNewPri.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_skyBlockSignIn.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_skyBlockTaskSystem.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_skyblockRewardDetail.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_skyblockRewardResult.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_skyblockUnlockTip.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_skyblock_productUpdate.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_summaryPoint.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_summaryTip.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_superPropsPanel.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_superShop.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_supplyTip.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_switchablePropsPanel.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_taskSystem.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_teamResources.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_tigerLottery.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_tipDialog.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_tipMessage.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_toolBar.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_topMessage.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_tycoonVedioAd.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_upgradePropsPanel.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_videoAdTip.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_walkingDeadStore.h">
+      <Filter>Blockman\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\Model\ItemModelMgr.h">
+      <Filter>Blockman\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\Model\ModelBase.h">
+      <Filter>Blockman\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\Model\ModelBiped.h">
+      <Filter>Blockman\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\Model\ModelBox.h">
+      <Filter>Blockman\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\Model\ModelRenderer.h">
+      <Filter>Blockman\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\Model\ModelTileEntity.h">
+      <Filter>Blockman\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\Render\ActiveRenderInfo.h">
+      <Filter>Blockman\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\Render\ActorTextRenderer.h">
+      <Filter>Blockman\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\Render\CameraGod.h">
+      <Filter>Blockman\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\Render\CloudSerializer.h">
+      <Filter>Blockman\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\Render\Colorizer.h">
+      <Filter>Blockman\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\Render\GenSectionLOD.h">
+      <Filter>Blockman\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\Render\HeadTextRender.h">
+      <Filter>Blockman\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\Render\HeadTextRenderer.h">
+      <Filter>Blockman\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\Render\ItemRender.h">
+      <Filter>Blockman\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\Render\Rasterizer.h">
+      <Filter>Blockman\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\Render\RenderBlocks.h">
+      <Filter>Blockman\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\Render\RenderEntity.h">
+      <Filter>Blockman\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\Render\RenderGlobal.h">
+      <Filter>Blockman\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\Render\SectionRenderer.h">
+      <Filter>Blockman\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\Render\TessMeshCollection.h">
+      <Filter>Blockman\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\Render\TextureAtlas.h">
+      <Filter>Blockman\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\Render\VisualGraph.h">
+      <Filter>Blockman\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\Render\VisualTessThread.h">
+      <Filter>Blockman\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\Render\WallTextRenderer.h">
+      <Filter>Blockman\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\Render\WorldImageRender.h">
+      <Filter>Blockman\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\Structs\ChoiceRole.h">
+      <Filter>Blockman\Structs</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\bm_clientDef.h">
+      <Filter>Blockman</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cBlock\BlockLoaderClient.h">
+      <Filter>Blockman\cBlock</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cBlock\CustomBlockClient.h">
+      <Filter>Blockman\cBlock</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cBlock\cBlock.h">
+      <Filter>Blockman\cBlock</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cBlock\cBlockManager.h">
+      <Filter>Blockman\cBlock</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cChunk\ChunkClient.h">
+      <Filter>Blockman\cChunk</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cChunk\ChunkProviderEndClient.h">
+      <Filter>Blockman\cChunk</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cChunk\ChunkProviderFlatClient.h">
+      <Filter>Blockman\cChunk</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cChunk\ChunkProviderGenerateClient.h">
+      <Filter>Blockman\cChunk</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cChunk\ChunkProviderHellClient.h">
+      <Filter>Blockman\cChunk</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cChunk\ChunkReadableStorageFileClient.h">
+      <Filter>Blockman\cChunk</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cChunk\ChunkServiceClient.h">
+      <Filter>Blockman\cChunk</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cEffects\EffectRenderer.h">
+      <Filter>Blockman\cEffects</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cEffects\EntityBreakingFx.h">
+      <Filter>Blockman\cEffects</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cEffects\EntityBubbleFx.h">
+      <Filter>Blockman\cEffects</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cEffects\EntityChestFx.h">
+      <Filter>Blockman\cEffects</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cEffects\EntityDiggingFx.h">
+      <Filter>Blockman\cEffects</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cEffects\EntityExplodeFx.h">
+      <Filter>Blockman\cEffects</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cEffects\EntityFx.h">
+      <Filter>Blockman\cEffects</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cEffects\EntityGunFlameFx.h">
+      <Filter>Blockman\cEffects</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cEffects\EntityLavaFx.h">
+      <Filter>Blockman\cEffects</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cEffects\EntityRainFx.h">
+      <Filter>Blockman\cEffects</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cEffects\EntitySmokeFx.h">
+      <Filter>Blockman\cEffects</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cEffects\EntitySpellFx.h">
+      <Filter>Blockman\cEffects</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cEntity\EntityActorCannonClient.h">
+      <Filter>Blockman\cEntity</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cEntity\EntityBulletClient.h">
+      <Filter>Blockman\cEntity</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cEntity\EntityFishHookClient.h">
+      <Filter>Blockman\cEntity</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cEntity\EntityFloatingMountClient.h">
+      <Filter>Blockman\cEntity</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cEntity\EntityFlyingMountClient.h">
+      <Filter>Blockman\cEntity</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cEntity\EntityGunFlame.h">
+      <Filter>Blockman\cEntity</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cEntity\EntityOtherPlayerMP.h">
+      <Filter>Blockman\cEntity</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cEntity\EntityPlayerSP.h">
+      <Filter>Blockman\cEntity</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cEntity\EntityPlayerSPMP.h">
+      <Filter>Blockman\cEntity</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cEntity\EntityVehicleClient.h">
+      <Filter>Blockman\cEntity</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cEntity\PlayerControlller.h">
+      <Filter>Blockman\cEntity</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cItem\cItem.h">
+      <Filter>Blockman\cItem</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cItem\cPotionManager.h">
+      <Filter>Blockman\cItem</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cTileEntity\TileEntityRenderMgr.h">
+      <Filter>Blockman\cTileEntity</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cTileEntity\TileEntityRenderable.h">
+      <Filter>Blockman\cTileEntity</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cTileEntity\TileEntityRenders.h">
+      <Filter>Blockman\cTileEntity</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cTrigger\TriggerModuleClient.h">
+      <Filter>Blockman\cTrigger</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cWorld\AnvilClient.h">
+      <Filter>Blockman\cWorld</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cWorld\AnvilManagerClient.h">
+      <Filter>Blockman\cWorld</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cWorld\BlockChangeRecorderClient.h">
+      <Filter>Blockman\cWorld</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cWorld\Blockman.h">
+      <Filter>Blockman\cWorld</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cWorld\ImageManager.h">
+      <Filter>Blockman\cWorld</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cWorld\MapManager.h">
+      <Filter>Blockman\cWorld</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cWorld\PlayerInteractionManager.h">
+      <Filter>Blockman\cWorld</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cWorld\RankManager.h">
+      <Filter>Blockman\cWorld</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cWorld\SectionClient.h">
+      <Filter>Blockman\cWorld</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cWorld\SignTextsChangeRecorder.h">
+      <Filter>Blockman\cWorld</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cWorld\UnitTest.h">
+      <Filter>Blockman\cWorld</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cWorld\WorldClient.h">
+      <Filter>Blockman\cWorld</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\External\cjson.h">
+      <Filter>External</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\External\inifile.h">
+      <Filter>External</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\GameAnalytics\GameAnalyticsRequest.h">
+      <Filter>GameAnalytics</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\GameAnalytics\GameAnalyticsSetting.h">
+      <Filter>GameAnalytics</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\LuaRegister\AutoClientRegister.h">
+      <Filter>LuaRegister</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\LuaRegister\Client\Client_Register.h">
+      <Filter>LuaRegister\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\LuaRegister\Client\Helper_Register.h">
+      <Filter>LuaRegister\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\LuaRegister\Client\HostApi_Register.h">
+      <Filter>LuaRegister\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\LuaRegister\Client\Network_Register.h">
+      <Filter>LuaRegister\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\LuaRegister\Client\ScriptEvent_Register.h">
+      <Filter>LuaRegister\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\LuaRegister\Client\cBlock_Register.h">
+      <Filter>LuaRegister\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\LuaRegister\Client\cItem_Register.h">
+      <Filter>LuaRegister\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\LuaRegister\UI\UI_Register.h">
+      <Filter>LuaRegister\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Network\ClientCommonDataSender.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Network\ClientHttpRequest.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Network\ClientNetwork.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Network\ClientNetworkCore.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Network\ClientNetworkRecver.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Network\ClientPacketSender.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Network\DataCache.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Network\S2CPacketDispatch.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Network\S2CPacketHandles\S2CBirdSimulatorPacketHandles.h">
+      <Filter>Network\S2CPacketHandles</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Network\S2CPacketHandles\S2CBlockCityPacketHandles.h">
+      <Filter>Network\S2CPacketHandles</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Network\S2CPacketHandles\S2CBlockFortPacketHandles.h">
+      <Filter>Network\S2CPacketHandles</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Network\S2CPacketHandles\S2CChatPacketHandles.h">
+      <Filter>Network\S2CPacketHandles</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Network\S2CPacketHandles\S2CCommonDataPacketHandles.h">
+      <Filter>Network\S2CPacketHandles</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Network\S2CPacketHandles\S2CEntityPacketHandles.h">
+      <Filter>Network\S2CPacketHandles</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Network\S2CPacketHandles\S2CGamePacketHandles.h">
+      <Filter>Network\S2CPacketHandles</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Network\S2CPacketHandles\S2CInitPacketHandles.h">
+      <Filter>Network\S2CPacketHandles</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Network\S2CPacketHandles\S2CPlayerActionPacketHandles.h">
+      <Filter>Network\S2CPacketHandles</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Network\S2CPacketHandles\S2CRanchPacketHandles.h">
+      <Filter>Network\S2CPacketHandles</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Network\S2CPacketHandles\S2CStatusPacketHandles.h">
+      <Filter>Network\S2CPacketHandles</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Plugins\DynamicCastClientEntity.h">
+      <Filter>Plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Plugins\DynamicCastHelper.h">
+      <Filter>Plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Plugins\GameClientEvents.h">
+      <Filter>Plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Plugins\HostApi.h">
+      <Filter>Plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Plugins\PluginManager.h">
+      <Filter>Plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Setting\ActionStateSetting.h">
+      <Filter>Setting</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Setting\AdvertSetting.h">
+      <Filter>Setting</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Setting\ArmorSetting.h">
+      <Filter>Setting</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Setting\BirdItemSetting.h">
+      <Filter>Setting</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Setting\BlockCityPortalSetting.h">
+      <Filter>Setting</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Setting\BlockCitySetting.h">
+      <Filter>Setting</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Setting\BlockFortItemSetting.h">
+      <Filter>Setting</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Setting\BriefIntroductionSetting.h">
+      <Filter>Setting</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Setting\ChestLotterySetting.h">
+      <Filter>Setting</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Setting\ClassificationSetting.h">
+      <Filter>Setting</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Setting\CustomItemSetting.h">
+      <Filter>Setting</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Setting\DesignationSetting.h">
+      <Filter>Setting</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Setting\FormulationSetting.h">
+      <Filter>Setting</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Setting\FunctionSetting.h">
+      <Filter>Setting</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Setting\GuideSystemSetting.h">
+      <Filter>Setting</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Setting\GunStoreSetting.h">
+      <Filter>Setting</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Setting\HelpSetting.h">
+      <Filter>Setting</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Setting\PixelGunGiftBagSetting.h">
+      <Filter>Setting</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Setting\RankLangSetting.h">
+      <Filter>Setting</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Setting\RewardSetting.h">
+      <Filter>Setting</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Setting\RuneSetting.h">
+      <Filter>Setting</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Setting\ScorePointSetting.h">
+      <Filter>Setting</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Setting\SeasonSetting.h">
+      <Filter>Setting</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Setting\SignInSetting.h">
+      <Filter>Setting</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Setting\SkyBlockAppShopSetting.h">
+      <Filter>Setting</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Setting\SkyBlockPrivilegeShopSetting.h">
+      <Filter>Setting</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Setting\SkyBlockTaskSystemSetting.h">
+      <Filter>Setting</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Setting\SkyblockSignInSetting.h">
+      <Filter>Setting</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Setting\StoreTabSetting.h">
+      <Filter>Setting</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Setting\TaskSystemSetting.h">
+      <Filter>Setting</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Setting\TeamInfoSetting.h">
+      <Filter>Setting</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Setting\WalkingDeadStoreSetting.h">
+      <Filter>Setting</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\ShellInterface.h">
+      <Filter>Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Util\BroadcastManager.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Util\ClientCmdMgr.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Util\ClientDataReport.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Util\ClientEvents.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Util\FriendManager.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Util\LanguageManager.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Util\MailManager.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Util\RankManager.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Util\RedDotManager.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Util\SkillEffectManager.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Util\ThumbUpRecordManager.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Util\TipType.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Util\UICommon.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Util\UserManager.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\game.h">
+      <Filter>Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\iniFileObj.h">
+      <Filter>Logic</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Audio">
+      <UniqueIdentifier>{7B3124DF-9434-375B-88F5-304A399D06EB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blockman">
+      <UniqueIdentifier>{C897F523-2FBC-3E97-A624-44227808F747}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blockman\EntityRenders">
+      <UniqueIdentifier>{9743E2BB-BDDB-33FE-BA13-8550D444AF25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blockman\GUI">
+      <UniqueIdentifier>{80BA8BCB-7735-3B8C-BF2B-AFB550D63353}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blockman\Model">
+      <UniqueIdentifier>{45A4A9DB-B25F-3923-8A81-769CA94FC78F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blockman\Render">
+      <UniqueIdentifier>{A949FEEB-2693-3FE1-A95B-92AD9E1A6F1F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blockman\Structs">
+      <UniqueIdentifier>{CB938C7E-63AA-3DDA-9CEE-53011E2EE6D2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blockman\cBlock">
+      <UniqueIdentifier>{1C7BCF22-A4FC-30EF-93E5-76527EA784F8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blockman\cChunk">
+      <UniqueIdentifier>{9BC1B95E-B053-38B2-9115-36E2EC2349CF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blockman\cEffects">
+      <UniqueIdentifier>{C415E998-D4C7-3D1B-A599-8F29DB1D523C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blockman\cEntity">
+      <UniqueIdentifier>{203449EC-8957-3669-83AF-693988345934}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blockman\cItem">
+      <UniqueIdentifier>{78649B35-0B0A-3AE4-938C-690285D3CA21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blockman\cTileEntity">
+      <UniqueIdentifier>{EA9314BC-28C9-332F-9FAC-4986B2EF15C7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blockman\cTrigger">
+      <UniqueIdentifier>{3BB1FDC1-067C-3C32-9D7D-5C563C1DCE80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blockman\cWorld">
+      <UniqueIdentifier>{4BE26C31-FC28-3C93-B9A1-214FF7A9F42E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="External">
+      <UniqueIdentifier>{5B0A5C4B-D047-321B-850E-C83FAC63BE27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameAnalytics">
+      <UniqueIdentifier>{A3B10DB9-2CF0-3D68-8C72-D22B75DCC46E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic">
+      <UniqueIdentifier>{CE930697-F53B-3B48-82F4-D533039C7E90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LuaRegister">
+      <UniqueIdentifier>{479523C1-5E6C-3F29-99F8-B1BC9ADADFD5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LuaRegister\Client">
+      <UniqueIdentifier>{E7FE9A85-C44A-39DA-A5DA-7BE2374FBA6A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LuaRegister\UI">
+      <UniqueIdentifier>{6C3DCF20-61E3-33B9-84EF-71A6EA69721D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network">
+      <UniqueIdentifier>{30C197F8-471A-3BD6-8F02-962BD64C1092}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\S2CPacketHandles">
+      <UniqueIdentifier>{A2E3C071-10E6-32E7-AE2B-947850410276}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins">
+      <UniqueIdentifier>{82F80C78-69EA-337E-AE93-24C2832E7755}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Setting">
+      <UniqueIdentifier>{C9B9280E-5DB6-387F-90D7-9F4DD368E8FF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util">
+      <UniqueIdentifier>{5D5BA1B3-D177-3C57-9DC1-9926B4EA0CF6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

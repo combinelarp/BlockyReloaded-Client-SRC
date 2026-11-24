@@ -110,6 +110,7 @@
 #include "GameAnalytics/GameAnalyticsRequest.h"
 #include "GameAnalytics/GameAnalyticsSetting.h"
 #include "Util/CPUTimer.h"
+#include "Util/UThread.h"
 
 #if (LORD_PLATFORM != LORD_PLATFORM_WINDOWS)
 #include <unistd.h>

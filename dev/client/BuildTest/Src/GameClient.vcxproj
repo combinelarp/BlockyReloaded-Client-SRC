@@ -1,0 +1,1256 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{2FB12BF2-9002-31E5-95BA-7F5FB448FCC1}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
+    <Platform>Win32</Platform>
+    <ProjectName>GameClient</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Download\SandboxOL\engine-10068\dev\client\Bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">GameClient.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">GameClient_d</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Download\SandboxOL\engine-10068\dev\client\Bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">GameClient.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">GameClient</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\Download\SandboxOL\engine-10068\dev\client\Bin\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">GameClient.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">GameClient</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\Download\SandboxOL\engine-10068\dev\client\Bin\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">GameClient.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">GameClient</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Download\SandboxOL\engine-10068\dev\client\Src;D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman;D:\Download\SandboxOL\engine-10068\dev\client\Src\External;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\..\engine-core\dev\engine\Src\Core;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\..\engine-core\dev\engine\Src\GLES2Render;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\..\engine-core\dev\engine\Dependencies\opengles_v2\Include;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\..\engine-core\dev\engine\Dependencies\RapidXml\Include;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\..\engine-core\dev\engine\Dependencies\Lua\Win32\Include;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\..\engine-core\dev\engine\Dependencies\Zlib\Win32\Include;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\..\engine-core\dev\engine\Dependencies\rapidjson\Include;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\..\engine-core\dev\engine\Dependencies\g3log\win32\include;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\..\engine-core\dev\engine\Dependencies\FreeType\IOS\Include;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\logic\Src;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\logic\dependencies\win32;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\curl\Windows\Include;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\logic\dependencies\cpr\win32\include;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\logic\dependencies\curl\win32\include;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\logic\dependencies\libzippp\win32\include;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\logic\dependencies\sparsehash\win32\include;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\..\engine-core\dev\engine\Dependencies\fmod\WIN32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_DEBUG;LORD_GAMECLIENT_EXPORTS;LORD_STATIC;TOLUA_STATIC;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;LORD_GAMECLIENT_EXPORTS;LORD_STATIC;TOLUA_STATIC;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Download\SandboxOL\engine-10068\dev\client\Src;D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman;D:\Download\SandboxOL\engine-10068\dev\client\Src\External;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\..\engine-core\dev\engine\Src\Core;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\..\engine-core\dev\engine\Src\GLES2Render;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\..\engine-core\dev\engine\Dependencies\opengles_v2\Include;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\..\engine-core\dev\engine\Dependencies\RapidXml\Include;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\..\engine-core\dev\engine\Dependencies\Lua\Win32\Include;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\..\engine-core\dev\engine\Dependencies\Zlib\Win32\Include;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\..\engine-core\dev\engine\Dependencies\rapidjson\Include;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\..\engine-core\dev\engine\Dependencies\g3log\win32\include;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\..\engine-core\dev\engine\Dependencies\FreeType\IOS\Include;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\logic\Src;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\logic\dependencies\win32;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\curl\Windows\Include;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\logic\dependencies\cpr\win32\include;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\logic\dependencies\curl\win32\include;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\logic\dependencies\libzippp\win32\include;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\logic\dependencies\sparsehash\win32\include;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\..\engine-core\dev\engine\Dependencies\fmod\WIN32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Download\SandboxOL\engine-10068\dev\client\Src;D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman;D:\Download\SandboxOL\engine-10068\dev\client\Src\External;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\..\engine-core\dev\engine\Src\Core;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\..\engine-core\dev\engine\Src\GLES2Render;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\..\engine-core\dev\engine\Dependencies\opengles_v2\Include;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\..\engine-core\dev\engine\Dependencies\RapidXml\Include;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\..\engine-core\dev\engine\Dependencies\Lua\Win32\Include;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\..\engine-core\dev\engine\Dependencies\Zlib\Win32\Include;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\..\engine-core\dev\engine\Dependencies\rapidjson\Include;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\..\engine-core\dev\engine\Dependencies\g3log\win32\include;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\..\engine-core\dev\engine\Dependencies\FreeType\IOS\Include;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\logic\Src;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\logic\dependencies\win32;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\curl\Windows\Include;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\logic\dependencies\cpr\win32\include;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\logic\dependencies\curl\win32\include;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\logic\dependencies\libzippp\win32\include;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\logic\dependencies\sparsehash\win32\include;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\..\engine-core\dev\engine\Dependencies\fmod\WIN32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Download\SandboxOL\engine-10068\dev\client\Src;D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman;D:\Download\SandboxOL\engine-10068\dev\client\Src\External;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\..\engine-core\dev\engine\Src\Core;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\..\engine-core\dev\engine\Src\GLES2Render;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\..\engine-core\dev\engine\Dependencies\opengles_v2\Include;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\..\engine-core\dev\engine\Dependencies\RapidXml\Include;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\..\engine-core\dev\engine\Dependencies\Lua\Win32\Include;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\..\engine-core\dev\engine\Dependencies\Zlib\Win32\Include;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\..\engine-core\dev\engine\Dependencies\rapidjson\Include;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\..\engine-core\dev\engine\Dependencies\g3log\win32\include;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\..\engine-core\dev\engine\Dependencies\FreeType\IOS\Include;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\logic\Src;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\logic\dependencies\win32;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\curl\Windows\Include;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\logic\dependencies\cpr\win32\include;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\logic\dependencies\curl\win32\include;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\logic\dependencies\libzippp\win32\include;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\logic\dependencies\sparsehash\win32\include;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\..\engine-core\dev\engine\Dependencies\fmod\WIN32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;LORD_GAMECLIENT_EXPORTS;LORD_STATIC;TOLUA_STATIC;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;LORD_GAMECLIENT_EXPORTS;LORD_STATIC;TOLUA_STATIC;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Download\SandboxOL\engine-10068\dev\client\Src;D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman;D:\Download\SandboxOL\engine-10068\dev\client\Src\External;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\..\engine-core\dev\engine\Src\Core;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\..\engine-core\dev\engine\Src\GLES2Render;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\..\engine-core\dev\engine\Dependencies\opengles_v2\Include;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\..\engine-core\dev\engine\Dependencies\RapidXml\Include;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\..\engine-core\dev\engine\Dependencies\Lua\Win32\Include;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\..\engine-core\dev\engine\Dependencies\Zlib\Win32\Include;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\..\engine-core\dev\engine\Dependencies\rapidjson\Include;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\..\engine-core\dev\engine\Dependencies\g3log\win32\include;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\..\engine-core\dev\engine\Dependencies\FreeType\IOS\Include;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\logic\Src;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\logic\dependencies\win32;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\curl\Windows\Include;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\logic\dependencies\cpr\win32\include;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\logic\dependencies\curl\win32\include;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\logic\dependencies\libzippp\win32\include;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\logic\dependencies\sparsehash\win32\include;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\..\engine-core\dev\engine\Dependencies\fmod\WIN32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Download\SandboxOL\engine-10068\dev\client\Src;D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman;D:\Download\SandboxOL\engine-10068\dev\client\Src\External;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\..\engine-core\dev\engine\Src\Core;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\..\engine-core\dev\engine\Src\GLES2Render;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\..\engine-core\dev\engine\Dependencies\opengles_v2\Include;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\..\engine-core\dev\engine\Dependencies\RapidXml\Include;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\..\engine-core\dev\engine\Dependencies\Lua\Win32\Include;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\..\engine-core\dev\engine\Dependencies\Zlib\Win32\Include;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\..\engine-core\dev\engine\Dependencies\rapidjson\Include;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\..\engine-core\dev\engine\Dependencies\g3log\win32\include;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\..\engine-core\dev\engine\Dependencies\FreeType\IOS\Include;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\logic\Src;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\logic\dependencies\win32;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\curl\Windows\Include;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\logic\dependencies\cpr\win32\include;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\logic\dependencies\curl\win32\include;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\logic\dependencies\libzippp\win32\include;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\logic\dependencies\sparsehash\win32\include;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\..\engine-core\dev\engine\Dependencies\fmod\WIN32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Download\SandboxOL\engine-10068\dev\client\Src;D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman;D:\Download\SandboxOL\engine-10068\dev\client\Src\External;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\..\engine-core\dev\engine\Src\Core;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\..\engine-core\dev\engine\Src\GLES2Render;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\..\engine-core\dev\engine\Dependencies\opengles_v2\Include;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\..\engine-core\dev\engine\Dependencies\RapidXml\Include;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\..\engine-core\dev\engine\Dependencies\Lua\Win32\Include;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\..\engine-core\dev\engine\Dependencies\Zlib\Win32\Include;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\..\engine-core\dev\engine\Dependencies\rapidjson\Include;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\..\engine-core\dev\engine\Dependencies\g3log\win32\include;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\..\engine-core\dev\engine\Dependencies\FreeType\IOS\Include;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\logic\Src;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\logic\dependencies\win32;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\curl\Windows\Include;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\logic\dependencies\cpr\win32\include;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\logic\dependencies\curl\win32\include;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\logic\dependencies\libzippp\win32\include;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\logic\dependencies\sparsehash\win32\include;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\..\engine-core\dev\engine\Dependencies\fmod\WIN32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;LORD_GAMECLIENT_EXPORTS;LORD_STATIC;TOLUA_STATIC;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;LORD_GAMECLIENT_EXPORTS;LORD_STATIC;TOLUA_STATIC;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Download\SandboxOL\engine-10068\dev\client\Src;D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman;D:\Download\SandboxOL\engine-10068\dev\client\Src\External;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\..\engine-core\dev\engine\Src\Core;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\..\engine-core\dev\engine\Src\GLES2Render;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\..\engine-core\dev\engine\Dependencies\opengles_v2\Include;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\..\engine-core\dev\engine\Dependencies\RapidXml\Include;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\..\engine-core\dev\engine\Dependencies\Lua\Win32\Include;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\..\engine-core\dev\engine\Dependencies\Zlib\Win32\Include;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\..\engine-core\dev\engine\Dependencies\rapidjson\Include;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\..\engine-core\dev\engine\Dependencies\g3log\win32\include;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\..\engine-core\dev\engine\Dependencies\FreeType\IOS\Include;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\logic\Src;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\logic\dependencies\win32;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\curl\Windows\Include;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\logic\dependencies\cpr\win32\include;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\logic\dependencies\curl\win32\include;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\logic\dependencies\libzippp\win32\include;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\logic\dependencies\sparsehash\win32\include;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\..\engine-core\dev\engine\Dependencies\fmod\WIN32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Download\SandboxOL\engine-10068\dev\client\Src;D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman;D:\Download\SandboxOL\engine-10068\dev\client\Src\External;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\..\engine-core\dev\engine\Src\Core;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\..\engine-core\dev\engine\Src\GLES2Render;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\..\engine-core\dev\engine\Dependencies\opengles_v2\Include;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\..\engine-core\dev\engine\Dependencies\RapidXml\Include;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\..\engine-core\dev\engine\Dependencies\Lua\Win32\Include;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\..\engine-core\dev\engine\Dependencies\Zlib\Win32\Include;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\..\engine-core\dev\engine\Dependencies\rapidjson\Include;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\..\engine-core\dev\engine\Dependencies\g3log\win32\include;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\..\engine-core\dev\engine\Dependencies\FreeType\IOS\Include;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\logic\Src;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\logic\dependencies\win32;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\curl\Windows\Include;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\logic\dependencies\cpr\win32\include;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\logic\dependencies\curl\win32\include;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\logic\dependencies\libzippp\win32\include;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\logic\dependencies\sparsehash\win32\include;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\..\engine-core\dev\engine\Dependencies\fmod\WIN32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Download\SandboxOL\engine-10068\dev\client\Src;D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman;D:\Download\SandboxOL\engine-10068\dev\client\Src\External;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\..\engine-core\dev\engine\Src\Core;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\..\engine-core\dev\engine\Src\GLES2Render;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\..\engine-core\dev\engine\Dependencies\opengles_v2\Include;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\..\engine-core\dev\engine\Dependencies\RapidXml\Include;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\..\engine-core\dev\engine\Dependencies\Lua\Win32\Include;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\..\engine-core\dev\engine\Dependencies\Zlib\Win32\Include;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\..\engine-core\dev\engine\Dependencies\rapidjson\Include;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\..\engine-core\dev\engine\Dependencies\g3log\win32\include;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\..\engine-core\dev\engine\Dependencies\FreeType\IOS\Include;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\logic\Src;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\logic\dependencies\win32;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\curl\Windows\Include;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\logic\dependencies\cpr\win32\include;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\logic\dependencies\curl\win32\include;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\logic\dependencies\libzippp\win32\include;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\logic\dependencies\sparsehash\win32\include;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\..\engine-core\dev\engine\Dependencies\fmod\WIN32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;LORD_GAMECLIENT_EXPORTS;LORD_STATIC;TOLUA_STATIC;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;LORD_GAMECLIENT_EXPORTS;LORD_STATIC;TOLUA_STATIC;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Download\SandboxOL\engine-10068\dev\client\Src;D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman;D:\Download\SandboxOL\engine-10068\dev\client\Src\External;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\..\engine-core\dev\engine\Src\Core;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\..\engine-core\dev\engine\Src\GLES2Render;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\..\engine-core\dev\engine\Dependencies\opengles_v2\Include;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\..\engine-core\dev\engine\Dependencies\RapidXml\Include;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\..\engine-core\dev\engine\Dependencies\Lua\Win32\Include;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\..\engine-core\dev\engine\Dependencies\Zlib\Win32\Include;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\..\engine-core\dev\engine\Dependencies\rapidjson\Include;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\..\engine-core\dev\engine\Dependencies\g3log\win32\include;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\..\engine-core\dev\engine\Dependencies\FreeType\IOS\Include;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\logic\Src;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\logic\dependencies\win32;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\curl\Windows\Include;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\logic\dependencies\cpr\win32\include;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\logic\dependencies\curl\win32\include;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\logic\dependencies\libzippp\win32\include;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\logic\dependencies\sparsehash\win32\include;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\..\engine-core\dev\engine\Dependencies\fmod\WIN32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Download\SandboxOL\engine-10068\dev\client\Src;D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman;D:\Download\SandboxOL\engine-10068\dev\client\Src\External;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\..\engine-core\dev\engine\Src\Core;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\..\engine-core\dev\engine\Src\GLES2Render;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\..\engine-core\dev\engine\Dependencies\opengles_v2\Include;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\..\engine-core\dev\engine\Dependencies\RapidXml\Include;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\..\engine-core\dev\engine\Dependencies\Lua\Win32\Include;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\..\engine-core\dev\engine\Dependencies\Zlib\Win32\Include;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\..\engine-core\dev\engine\Dependencies\rapidjson\Include;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\..\engine-core\dev\engine\Dependencies\g3log\win32\include;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\..\engine-core\dev\engine\Dependencies\FreeType\IOS\Include;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\logic\Src;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\logic\dependencies\win32;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\curl\Windows\Include;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\logic\dependencies\cpr\win32\include;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\logic\dependencies\curl\win32\include;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\logic\dependencies\libzippp\win32\include;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\logic\dependencies\sparsehash\win32\include;D:\Download\SandboxOL\engine-10068\dev\client\Src\..\..\..\engine-core\dev\engine\Dependencies\fmod\WIN32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Audio\FModApi.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Audio\FModAudioEngine.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\BattleSummary.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\EntityRenders\EntityRender.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\EntityRenders\EntityRenderActorCannon.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\EntityRenders\EntityRenderActorNpc.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\EntityRenders\EntityRenderAircraft.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\EntityRenders\EntityRenderArrow.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\EntityRenders\EntityRenderBiped.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\EntityRenders\EntityRenderBird.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\EntityRenders\EntityRenderBlockmanEmpty.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\EntityRenders\EntityRenderBuildNpc.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\EntityRenders\EntityRenderBullet.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\EntityRenders\EntityRenderBulletin.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\EntityRenders\EntityRenderCreature.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\EntityRenders\EntityRenderCreatureBullet.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\EntityRenders\EntityRenderDecoration.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\EntityRenders\EntityRenderFishHook.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\EntityRenders\EntityRenderFloatingMount.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\EntityRenders\EntityRenderFlyingMount.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\EntityRenders\EntityRenderGrenade.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\EntityRenders\EntityRenderGunFlame.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\EntityRenders\EntityRenderItem.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\EntityRenders\EntityRenderLandNpc.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\EntityRenders\EntityRenderLiving.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\EntityRenders\EntityRenderLivingBase.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\EntityRenders\EntityRenderManager.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\EntityRenders\EntityRenderMerchant.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\EntityRenders\EntityRenderPlayer.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\EntityRenders\EntityRenderRankNpc.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\EntityRenders\EntityRenderSessionNpc.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\EntityRenders\EntityRenderSkillThrowable.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\EntityRenders\EntityRenderTNTPrimed.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\EntityRenders\EntityRenderThrowable.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\EntityRenders\EntityRenderVehicle.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\EntityRenders\EntityRenderable.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\EntityRenders\EntityTextureAtlas.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\CustomGuiWindow.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIAppShopAdItem.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIBedWarReclaimRuneItem.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIBedWarRuneItem.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIBedWarRuneProItem.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIBedWarRuneTypeItem.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIBedWarSeasonHonorItem.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIBedWarSeasonRankItem.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIBedWarSeasonRankPanel.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIBedWarSeasonRewardItem.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIBedWarSeasonRule.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIBuildWarGuessItem.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUICarProgress.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIChestLotteryItem.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIChestRewardItem.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUICommonTeamInfo.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUICustomPropItem.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIDesignationItem.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIEnchantmentPropItem.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIGunStoreInfos.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIGunStoreLevel.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIGunStoreModel.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIGunStoreModuleItem.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIGunStoreModulePanel.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIGunStorePanel.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIGunStoreTab.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIKillMsgItem.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIPixelAdInfo.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIPixelGunActiveChest.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIPixelGunDayActive.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIPixelGunGiftBagItem.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIPixelGunHallModeSelectMapItem.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIPixelGunMain.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIPixelGunSignInItem.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIPixelGunWeekActive.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUISeasonHonorItem.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUISeasonRankItem.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUISeasonRankPanel.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUISeasonRewardItem.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUISeasonRule.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIShopGoods.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIShopGridView.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUISkyBlockMain.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUISkyBlockRankItem.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUISkyBlockSignInItem.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUISkyBlockTaskDarePanel.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUISkyBlockTaskInfoItem.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUISkyBlockTaskMainLinePanel.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUISkyBlockTaskMainLineTab.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUISkyBlockTaskPanel.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUISkyBlockTaskRewardItem.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIStoreAttributeItem.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIStoreGunDetail.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIStoreGunItem.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIStoreGunUpgrade.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIStoreModuleDetail.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIStorePropDetail.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIStorePropItem.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIStorePropertyItem.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUISummaryItem.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUISuperPropItem.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUISwitchablePropItem.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUITaskDailyPanel.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUITaskInfoItem.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUITaskMainLinePanel.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUITaskMainLineTab.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUITaskPanel.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUITaskRewardItem.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIUpgradePropItem.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIWalkingDeadMain.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIWalkingDeadStoreGoodsPanel.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIWalkingDeadStoreItem.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIWalkingDeadStoreSupplyItem.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIWalkingDeadStoreSupplyPanel.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIWalkingDeadStoreSupplyPopup.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIWalkingDeadStoreTab.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIWalkingDeadSupplyDescItem.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIWindowMoveAnimator.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiActorWindow.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiAppShopItem.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiBirdActivityItem.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiBirdAtlasItem.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiBirdDressItem.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiBirdFeedItem.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiBirdFuse.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiBirdLotteryItem.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiBirdPack.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiBirdPackAndFuseItem.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiBirdPersonalShopItem.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiBirdTaskItem.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiBirdTool.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiBlockCityBuyFlyItem.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiBlockCityCharmRankItem.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiBlockCityChoosePaperItem.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiBlockCityElevatorItem.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiBlockCityFriendItem.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiBlockCityPortalItem.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiBlockCityRankItem.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiBlockCityReceiveFlowerItem.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiBlockCitySaveFileItem.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiBlockCityTigerLotteryItem.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiBlockFortItemInfo.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiBlockFortManorUpgradeItem.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiBlockFortStoreItem.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiCheckinItem.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiCommonTabGridView.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiDef.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiEffectViewOfObtainment.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiEntityWindow.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiItemSlot.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiItemStack.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiManorFurnitureItem.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiManorHouseTemplateItem.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiManorMessageItem.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiPlayerItem.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiRanchAchievementItem.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiRanchBuildFactoryQueue.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiRanchBuildFarmQueue.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiRanchBuildItem.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiRanchBuildOperation.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiRanchBuildProduct.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiRanchBuildRecipes.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiRanchBuildShortcut.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiRanchCommonItem.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiRanchCommunityItem.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiRanchFriendHelpItem.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiRanchFriendOperate.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiRanchFunctionItem.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiRanchItem.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiRanchMailItem.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiRanchOrderItem.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiRanchOrderOperate.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiRanchRankItem.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiRanchRankTab.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiRanchSellItem.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiRanchStorageItem.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiScrollableInventory.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiSelectableActionItem.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiSkyBlockAppShopItem.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiSkyBlockPrivilegeRewardItem.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiSkyBlockPrivilegeShopItem.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiSkyBlockSupemePrivilege.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiSlotTable.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiTeamResourcesItem.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiUrlImage.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\RootGuiLayout.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_HideAndSeekHallResult.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_appShop.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_armorPanelControl.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_baseMessage.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_bedWarRune.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_bedwarSeasonRank.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_bedwarSeasonReward.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_birdActivity.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_birdAtlas.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_birdGainTip.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_birdHelp.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_birdLottery.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_birdPackAndFuse.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_birdPersonalShop.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_birdStore.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_birdTaskTip.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_birdTip.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_blockCityBuyFlyTip.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_blockCityCharmRank.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_blockCityChoosePaper.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_blockCityElevator.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_blockCityFriend.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_blockCityHouseShop.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_blockCityMain.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_blockCityManor.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_blockCityPack.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_blockCityPortal.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_blockCityRank.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_blockCityRankAward.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_blockCityRankFriend.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_blockCityRankGlobal.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_blockCityReceiveFlower.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_blockCitySaveFile.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_blockCityStore.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_blockCityStoreBlock.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_blockCityStoreFurniture.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_blockCityStorePaper.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_blockCityTigerLottery.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_blockCityTip.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_blockFortBuildingInfo.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_blockFortMain.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_blockFortManorUpgrade.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_blockFortPack.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_blockFortPackInventory.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_blockFortStore.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_blockFortTip.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_blockLoading.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_bottomMessage.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_briefIntroduction.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_buildwarGrade.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_buildwarGuess.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_buildwarGuessResult.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_buyGoodsTip.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_carProgressTable.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_centerMessage.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_chat.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_checkin.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_chest.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_chestLottery.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_chestRewardDetail.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_commonTip.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_countdown.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_craftingPanelControl.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_customPropsPanel.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_deadSummary.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_deathSettlementControl.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_designationPanelControl.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_driveControl.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_enchantmentPanel.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_enchantmentPropsPanel.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_finalSummary.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_formulationPanelControl.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_furnacePanel.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_gameSetting.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_gameTipDialog.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_guideSystem.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_gunStore.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_jailBreakRoleChoice.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_killPanel.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_layout.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_levelUpPanel.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_loadingPage.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_lotteryChestDetail.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_mainControl.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_mainInventoryPanelControl.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_manor.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_manorFurniture.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_manorHouse.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_manorInfo.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_manorMessage.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_manorUpgrade.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_menu.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_miniMap.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_multiTipDialog.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_multiTipInteractionDialog.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_notification.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_occupationUnlock.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_outputConfig.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_personalShop.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_pixelChickenAward.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_pixelChickenMain.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_pixelGunGiftBagStore.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_pixelGunHallArmorUpgrade.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_pixelGunHallModelSelect.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_pixelGunIndieMain.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_pixelgun1v1.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_pixelgunSignIn.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_pixelgungamelvup.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_pixelgungameresult.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_pixelgunrevive.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_playerInfo.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_playerInventoryControl.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_playerList.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_playerOperation.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_ranch.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_ranchAchievement.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_ranchBuildFactory.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_ranchBuildFarm.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_ranchCommunity.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_ranchFactory.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_ranchFarming.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_ranchGainTip.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_ranchHouse.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_ranchHousePanel.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_ranchMain.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_ranchOrder.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_ranchProsperityRank.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_ranchRank.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_ranchSciencePanel.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_ranchStorage.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_ranchTimeTip.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_ranchTip.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_ranchUpgrade.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_rank.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_realTimeRank.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_renderItems.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_rewardResult.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_seasonRank.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_seasonReward.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_shop.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_skyBlockAppShop.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_skyBlockPrivilegeShop.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_skyBlockRank.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_skyBlockReciveNewPri.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_skyBlockSignIn.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_skyBlockTaskSystem.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_skyblockRewardDetail.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_skyblockRewardResult.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_skyblockUnlockTip.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_skyblock_productUpdate.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_summaryPoint.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_summaryTip.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_superPropsPanel.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_superShop.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_supplyTip.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_switchablePropsPanel.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_taskSystem.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_teamResources.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_tigerLottery.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_tipDialog.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_tipMessage.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_toolBar.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_topMessage.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_tycoonVedioAd.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_upgradePropsPanel.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_videoAdTip.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_walkingDeadStore.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\Model\ItemModelMgr.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\Model\ModelBase.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\Model\ModelBiped.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\Model\ModelBox.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\Model\ModelRenderer.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\Model\ModelTileEntity.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\Render\ActiveRenderInfo.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\Render\ActorTextRenderer.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\Render\CameraGod.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\Render\CloudSerializer.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\Render\Colorizer.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\Render\GenSectionLOD.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\Render\HeadTextRender.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\Render\HeadTextRenderer.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\Render\ItemRender.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\Render\Rasterizer.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\Render\RenderBlocks.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\Render\RenderEntity.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\Render\RenderGlobal.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\Render\SectionRenderer.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\Render\TessMeshCollection.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\Render\TextureAtlas.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\Render\VisualGraph.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\Render\VisualTessThread.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\Render\WallTextRenderer.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\Render\WorldImageRender.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\Structs\ChoiceRole.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\bm_clientDef.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cBlock\BlockLoaderClient.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cBlock\CustomBlockClient.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cBlock\cBlock.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cBlock\cBlockManager.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cChunk\ChunkClient.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cChunk\ChunkProviderEndClient.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cChunk\ChunkProviderFlatClient.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cChunk\ChunkProviderGenerateClient.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cChunk\ChunkProviderHellClient.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cChunk\ChunkReadableStorageFileClient.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cChunk\ChunkServiceClient.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cEffects\EffectRenderer.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cEffects\EntityBreakingFx.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cEffects\EntityBubbleFx.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cEffects\EntityChestFx.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cEffects\EntityDiggingFx.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cEffects\EntityExplodeFx.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cEffects\EntityFx.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cEffects\EntityGunFlameFx.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cEffects\EntityLavaFx.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cEffects\EntityRainFx.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cEffects\EntitySmokeFx.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cEffects\EntitySpellFx.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cEntity\EntityActorCannonClient.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cEntity\EntityBulletClient.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cEntity\EntityFishHookClient.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cEntity\EntityFloatingMountClient.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cEntity\EntityFlyingMountClient.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cEntity\EntityGunFlame.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cEntity\EntityOtherPlayerMP.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cEntity\EntityPlayerSP.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cEntity\EntityPlayerSPMP.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cEntity\EntityVehicleClient.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cEntity\PlayerControlller.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cItem\cItem.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cItem\cPotionManager.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cTileEntity\TileEntityRenderMgr.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cTileEntity\TileEntityRenderable.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cTileEntity\TileEntityRenders.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cTrigger\TriggerModuleClient.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cWorld\AnvilClient.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cWorld\AnvilManagerClient.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cWorld\BlockChangeRecorderClient.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cWorld\Blockman.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cWorld\ImageManager.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cWorld\MapManager.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cWorld\PlayerInteractionManager.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cWorld\RankManager.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cWorld\SectionClient.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cWorld\SignTextsChangeRecorder.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cWorld\UnitTest.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cWorld\WorldClient.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\External\cjson.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\External\inifile.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\GameAnalytics\GameAnalyticsRequest.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\GameAnalytics\GameAnalyticsSetting.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\LuaRegister\AutoClientRegister.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\LuaRegister\Client\Client_Register.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\LuaRegister\Client\Helper_Register.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\LuaRegister\Client\HostApi_Register.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\LuaRegister\Client\Network_Register.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\LuaRegister\Client\ScriptEvent_Register.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\LuaRegister\Client\cBlock_Register.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\LuaRegister\Client\cItem_Register.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\LuaRegister\UI\UI_Register.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Network\ClientCommonDataSender.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Network\ClientHttpRequest.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Network\ClientNetwork.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Network\ClientNetworkCore.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Network\ClientNetworkRecver.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Network\ClientPacketSender.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Network\DataCache.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Network\S2CPacketDispatch.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Network\S2CPacketHandles\S2CBirdSimulatorPacketHandles.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Network\S2CPacketHandles\S2CBlockCityPacketHandles.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Network\S2CPacketHandles\S2CBlockFortPacketHandles.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Network\S2CPacketHandles\S2CChatPacketHandles.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Network\S2CPacketHandles\S2CCommonDataPacketHandles.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Network\S2CPacketHandles\S2CEntityPacketHandles.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Network\S2CPacketHandles\S2CGamePacketHandles.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Network\S2CPacketHandles\S2CInitPacketHandles.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Network\S2CPacketHandles\S2CPlayerActionPacketHandles.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Network\S2CPacketHandles\S2CRanchPacketHandles.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Network\S2CPacketHandles\S2CStatusPacketHandles.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Plugins\DynamicCastClientEntity.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Plugins\DynamicCastHelper.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Plugins\GameClientEvents.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Plugins\HostApi.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Plugins\PluginManager.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Setting\ActionStateSetting.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Setting\AdvertSetting.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Setting\ArmorSetting.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Setting\BirdItemSetting.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Setting\BlockCityPortalSetting.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Setting\BlockCitySetting.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Setting\BlockFortItemSetting.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Setting\BriefIntroductionSetting.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Setting\ChestLotterySetting.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Setting\ClassificationSetting.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Setting\CustomItemSetting.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Setting\DesignationSetting.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Setting\FormulationSetting.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Setting\FunctionSetting.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Setting\GuideSystemSetting.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Setting\GunStoreSetting.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Setting\HelpSetting.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Setting\PixelGunGiftBagSetting.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Setting\RankLangSetting.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Setting\RewardSetting.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Setting\RuneSetting.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Setting\ScorePointSetting.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Setting\SeasonSetting.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Setting\SignInSetting.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Setting\SkyBlockAppShopSetting.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Setting\SkyBlockPrivilegeShopSetting.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Setting\SkyBlockTaskSystemSetting.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Setting\SkyblockSignInSetting.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Setting\StoreTabSetting.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Setting\TaskSystemSetting.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Setting\TeamInfoSetting.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Setting\WalkingDeadStoreSetting.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\ShellInterface.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Util\BroadcastManager.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Util\ClientCmdMgr.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Util\ClientDataReport.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Util\ClientEvents.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Util\FriendManager.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Util\LanguageManager.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Util\MailManager.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Util\RankManager.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Util\RedDotManager.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Util\SkillEffectManager.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Util\ThumbUpRecordManager.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Util\TipType.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Util\UICommon.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Util\UserManager.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\game.h" />
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\iniFileObj.h" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Audio\FModApi.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Audio\FModAudioEngine.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\BattleSummary.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\EntityRenders\EntityRender.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\EntityRenders\EntityRenderActorCannon.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\EntityRenders\EntityRenderActorNpc.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\EntityRenders\EntityRenderAircraft.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\EntityRenders\EntityRenderArrow.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\EntityRenders\EntityRenderBiped.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\EntityRenders\EntityRenderBird.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\EntityRenders\EntityRenderBlockmanEmpty.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\EntityRenders\EntityRenderBuildNpc.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\EntityRenders\EntityRenderBullet.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\EntityRenders\EntityRenderBulletin.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\EntityRenders\EntityRenderCreature.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\EntityRenders\EntityRenderCreatureBullet.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\EntityRenders\EntityRenderDecoration.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\EntityRenders\EntityRenderFishHook.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\EntityRenders\EntityRenderFloatingMount.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\EntityRenders\EntityRenderFlyingMount.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\EntityRenders\EntityRenderGrenade.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\EntityRenders\EntityRenderGunFlame.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\EntityRenders\EntityRenderItem.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\EntityRenders\EntityRenderLandNpc.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\EntityRenders\EntityRenderLiving.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\EntityRenders\EntityRenderLivingBase.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\EntityRenders\EntityRenderManager.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\EntityRenders\EntityRenderMerchant.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\EntityRenders\EntityRenderPlayer.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\EntityRenders\EntityRenderRankNpc.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\EntityRenders\EntityRenderSessionNpc.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\EntityRenders\EntityRenderSkillThrowable.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\EntityRenders\EntityRenderTNTPrimed.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\EntityRenders\EntityRenderThrowable.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\EntityRenders\EntityRenderVehicle.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\EntityRenders\EntityRenderable.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\EntityRenders\EntityTextureAtlas.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\CustomGuiWindow.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIAppShopAdItem.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIBedWarReclaimRuneItem.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIBedWarRuneItem.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIBedWarRuneProItem.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIBedWarRuneTypeItem.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIBedWarSeasonHonorItem.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIBedWarSeasonRankItem.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIBedWarSeasonRankPanel.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIBedWarSeasonRewardItem.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIBedWarSeasonRule.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIBuildWarGuessItem.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUICarProgress.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIChestLotteryItem.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIChestRewardItem.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUICommonTeamInfo.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUICustomPropItem.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIDesignationItem.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIEnchantmentPropItem.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIGunStoreInfos.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIGunStoreLevel.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIGunStoreModel.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIGunStoreModuleItem.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIGunStoreModulePanel.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIGunStorePanel.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIGunStoreTab.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIKillMsgItem.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIPixelAdInfo.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIPixelGunActiveChest.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIPixelGunDayActive.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIPixelGunGiftBagItem.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIPixelGunHallModeSelectMapItem.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIPixelGunMain.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIPixelGunSignInItem.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIPixelGunWeekActive.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUISeasonHonorItem.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUISeasonRankItem.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUISeasonRankPanel.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUISeasonRewardItem.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUISeasonRule.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIShopGoods.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIShopGridView.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUISkyBlockMain.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUISkyBlockRankItem.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUISkyBlockSignInItem.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUISkyBlockTaskDarePanel.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUISkyBlockTaskInfoItem.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUISkyBlockTaskMainLinePanel.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUISkyBlockTaskMainLineTab.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUISkyBlockTaskPanel.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUISkyBlockTaskRewardItem.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIStoreAttributeItem.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIStoreGunDetail.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIStoreGunItem.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIStoreGunUpgrade.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIStoreModuleDetail.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIStorePropDetail.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIStorePropItem.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIStorePropertyItem.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUISummaryItem.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUISuperPropItem.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUISwitchablePropItem.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUITaskDailyPanel.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUITaskInfoItem.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUITaskMainLinePanel.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUITaskMainLineTab.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUITaskPanel.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUITaskRewardItem.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIUpgradePropItem.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIWalkingDeadMain.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIWalkingDeadStoreGoodsPanel.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIWalkingDeadStoreItem.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIWalkingDeadStoreSupplyItem.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIWalkingDeadStoreSupplyPanel.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIWalkingDeadStoreSupplyPopup.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIWalkingDeadStoreTab.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIWalkingDeadSupplyDescItem.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GUIWindowMoveAnimator.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiActorWindow.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiAppShopItem.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiBirdActivityItem.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiBirdAtlasItem.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiBirdDressItem.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiBirdFeedItem.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiBirdFuse.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiBirdLotteryItem.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiBirdPack.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiBirdPackAndFuseItem.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiBirdPersonalShopItem.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiBirdTaskItem.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiBirdTool.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiBlockCityBuyFlyItem.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiBlockCityCharmRankItem.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiBlockCityChoosePaperItem.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiBlockCityElevatorItem.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiBlockCityFriendItem.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiBlockCityPortalItem.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiBlockCityRankItem.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiBlockCityReceiveFlowerItem.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiBlockCitySaveFileItem.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiBlockCityTigerLotteryItem.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiBlockFortItemInfo.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiBlockFortManorUpgradeItem.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiBlockFortStoreItem.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiCheckinItem.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiCommonTabGridView.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiDef.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiEffectViewOfObtainment.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiEntityWindow.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiItemSlot.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiItemStack.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiManorFurnitureItem.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiManorHouseTemplateItem.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiManorMessageItem.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiPlayerItem.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiRanchAchievementItem.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiRanchBuildFactoryQueue.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiRanchBuildFarmQueue.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiRanchBuildItem.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiRanchBuildOperation.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiRanchBuildProduct.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiRanchBuildRecipes.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiRanchBuildShortcut.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiRanchCommonItem.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiRanchCommunityItem.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiRanchFriendHelpItem.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiRanchFriendOperate.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiRanchFunctionItem.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiRanchItem.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiRanchMailItem.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiRanchOrderItem.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiRanchOrderOperate.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiRanchRankItem.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiRanchRankTab.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiRanchSellItem.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiRanchStorageItem.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiScrollableInventory.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiSelectableActionItem.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiSkyBlockAppShopItem.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiSkyBlockPrivilegeRewardItem.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiSkyBlockPrivilegeShopItem.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiSkyBlockSupemePrivilege.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiSlotTable.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiTeamResourcesItem.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\GuiUrlImage.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\RootGuiLayout.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_HideAndSeekHallResult.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_SummaryPoint.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_appShop.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_armorPanelControl.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_baseMessage.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_bedWarRune.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_bedwarSeasonRank.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_bedwarSeasonReward.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_birdActivity.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_birdAtlas.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_birdGainTip.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_birdHelp.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_birdLottery.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_birdPackAndFuse.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_birdPersonalShop.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_birdStore.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_birdTaskTip.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_birdTip.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_blockCityBuyFlyTip.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_blockCityCharmRank.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_blockCityChoosePaper.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_blockCityElevator.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_blockCityFriend.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_blockCityHouseShop.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_blockCityMain.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_blockCityManor.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_blockCityPack.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_blockCityPortal.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_blockCityRank.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_blockCityRankAward.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_blockCityRankFriend.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_blockCityRankGlobal.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_blockCityReceiveFlower.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_blockCitySaveFile.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_blockCityStore.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_blockCityStoreBlock.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_blockCityStoreFurniture.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_blockCityStorePaper.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_blockCityTigerLottery.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_blockCityTip.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_blockFortBuildingInfo.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_blockFortMain.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_blockFortManorUpgrade.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_blockFortPack.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_blockFortPackInventory.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_blockFortStore.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_blockFortTip.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_blockLoading.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_bottomMessage.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_briefIntroduction.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_buildwarGrade.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_buildwarGuess.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_buildwarGuessResult.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_buyGoodsTip.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_carProgressTable.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_centerMessage.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_chat.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_checkin.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_chest.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_chestLottery.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_chestRewardDetail.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_commonTip.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_countdown.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_craftingPanelControl.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_customPropsPanel.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_deadSummary.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_deathSettlementControl.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_designationPanelControl.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_driveControl.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_enchantmentPanel.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_enchantmentPropsPanel.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_finalSummary.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_formulationPanelControl.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_furnacePanel.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_gameSetting.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_gameTipDialog.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_guideSystem.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_gunStore.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_jailBreakRoleChoice.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_killPanel.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_layout.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_levelUpPanel.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_loadingPage.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_lotteryChestDetail.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_mainControl.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_mainInventoryPanelControl.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_manor.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_manorFurniture.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_manorHouse.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_manorInfo.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_manorMessage.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_manorUpgrade.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_menu.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_miniMap.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_multiTipDialog.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_multiTipInteractionDialog.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_notification.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_occupationUnlock.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_outputConfig.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_personalShop.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_pixelChickenAward.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_pixelChickenMain.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_pixelGunGiftBagStore.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_pixelGunHallArmorUpgrade.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_pixelGunHallModelSelect.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_pixelGunIndieMain.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_pixelgun1v1.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_pixelgunSignIn.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_pixelgungamelvup.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_pixelgungameresult.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_pixelgunrevive.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_playerInfo.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_playerInventoryControl.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_playerList.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_playerOperation.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_ranch.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_ranchAchievement.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_ranchBuildFactory.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_ranchBuildFarm.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_ranchCommunity.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_ranchFactory.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_ranchFarming.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_ranchGainTip.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_ranchHouse.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_ranchHousePanel.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_ranchMain.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_ranchOrder.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_ranchProsperityRank.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_ranchRank.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_ranchSciencePanel.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_ranchStorage.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_ranchTimeTip.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_ranchTip.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_ranchUpgrade.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_rank.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_realTimeRank.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_renderItems.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_rewardResult.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_seasonRank.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_seasonReward.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_shop.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_skyBlockAppShop.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_skyBlockPrivilegeShop.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_skyBlockRank.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_skyBlockReciveNewPri.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_skyBlockSignIn.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_skyBlockTaskSystem.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_skyblockRewardDetail.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_skyblockRewardResult.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_skyblockUnlockTip.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_skyblock_productUpdate.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_summaryTip.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_superPropsPanel.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_superShop.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_supplyTip.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_switchablePropsPanel.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_taskSystem.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_teamResources.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_tigerLottery.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_tipDialog.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_tipMessage.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_toolBar.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_topMessage.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_tycoonVedioAd.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_upgradePropsPanel.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_videoAdTip.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\GUI\gui_walkingDeadStore.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\Model\ItemModelMgr.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\Model\ModelBase.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\Model\ModelBiped.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\Model\ModelBox.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\Model\ModelRenderer.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\Model\ModelTileEntity.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\Render\ActiveRenderInfo.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\Render\ActorTextRenderer.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\Render\CameraGod.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\Render\CloudSerializer.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\Render\Colorizer.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\Render\GenSectionLOD.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\Render\HeadTextRender.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\Render\HeadTextRenderer.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\Render\ItemRender.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\Render\Rasterizer.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\Render\RenderBlocks.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\Render\RenderEntity.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\Render\RenderGlobal.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\Render\SectionRenderer.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\Render\TessMeshCollection.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\Render\TextureAtlas.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\Render\VisualGraph.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\Render\VisualTessThread.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\Render\WallTextRenderer.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\Render\WorldImageRender.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cBlock\BlockLoaderClient.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cBlock\CustomBlockClient.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cBlock\cBlock.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cBlock\cBlockManager.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cChunk\ChunkClient.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cChunk\ChunkReadableStorageFileClient.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cChunk\ChunkServiceClient.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cEffects\EffectRenderer.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cEffects\EntityBreakingFx.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cEffects\EntityBubbleFx.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cEffects\EntityChestFx.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cEffects\EntityDiggingFx.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cEffects\EntityExplodeFx.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cEffects\EntityFx.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cEffects\EntityGunFlameFx.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cEffects\EntityLavaFx.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cEffects\EntityRainFx.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cEffects\EntitySmokeFx.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cEffects\EntitySpellFx.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cEntity\EntityActorCannonClient.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cEntity\EntityBulletClient.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cEntity\EntityFishHookClient.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cEntity\EntityGunFlame.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cEntity\EntityOtherPlayerMP.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cEntity\EntityPlayerSP.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cEntity\EntityPlayerSPMP.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cEntity\EntityVehicleClient.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cEntity\PlayerControlller.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cEntity\cEntityRtti.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cItem\cItem.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cItem\cPotionManager.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cTileEntity\TileEntityRenderMgr.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cTileEntity\TileEntityRenderable.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cTileEntity\TileEntityRenders.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cTrigger\TriggerModuleClient.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cWorld\BlockChangeRecorderClient.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cWorld\Blockman.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cWorld\ImageManager.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cWorld\MapManager.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cWorld\PlayerInteractionManager.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cWorld\RankManager.cpp">
+      <ObjectFileName>$(IntDir)/Blockman/cWorld/RankManager.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cWorld\SectionClient.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cWorld\SignTextsChangeRecorder.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cWorld\UnitTest.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Blockman\cWorld\WorldClient.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\External\cJSON.c" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\External\inifile.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\GameAnalytics\GameAnalyticsRequest.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\GameAnalytics\GameAnalyticsSetting.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Network\ClientCommonDataSender.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Network\ClientHttpRequest.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Network\ClientNetwork.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Network\ClientNetworkCore.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Network\ClientNetworkRecver.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Network\ClientNetworkRecver_PacketRegister100.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Network\ClientNetworkRecver_PacketRegister200.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Network\ClientNetworkRecver_PacketRegisterEnd.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Network\ClientNetworkRecver_inner.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Network\ClientPacketSender.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Network\DataCache.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Network\S2CPacketHandles\S2CBirdSimulatorPacketHandles.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Network\S2CPacketHandles\S2CBlockCityPacketHandles.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Network\S2CPacketHandles\S2CBlockFortPacketHandles.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Network\S2CPacketHandles\S2CChatPacketHandles.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Network\S2CPacketHandles\S2CCommonDataPacketHandles.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Network\S2CPacketHandles\S2CEntityPacketHandles.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Network\S2CPacketHandles\S2CGamePacketHandles.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Network\S2CPacketHandles\S2CInitPacketHandles.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Network\S2CPacketHandles\S2CPlayerActionPacketHandles.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Network\S2CPacketHandles\S2CRanchPacketHandles.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Network\S2CPacketHandles\S2CStatusPacketHandles.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Plugins\PluginManager.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Setting\ActionStateSetting.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Setting\AdvertSetting.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Setting\ArmorSetting.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Setting\BirdItemSetting.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Setting\BlockCityPortalSetting.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Setting\BlockCitySetting.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Setting\BlockFortItemSetting.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Setting\BriefIntroductionSetting.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Setting\ChestLotterySetting.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Setting\ClassificationSetting.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Setting\CustomItemSetting.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Setting\DesignationSetting.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Setting\FormulationSetting.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Setting\FunctionSetting.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Setting\GuideSystemSetting.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Setting\GunStoreSetting.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Setting\HelpSetting.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Setting\PixelGunGiftBagSetting.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Setting\RankLangSetting.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Setting\RewardSetting.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Setting\RuneSetting.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Setting\ScorePointSetting.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Setting\SeasonSetting.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Setting\SignInSetting.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Setting\SkyBlockAppShopSetting.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Setting\SkyBlockPrivilegeShopSetting.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Setting\SkyBlockTaskSystemSetting.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Setting\SkyblockSignInSetting.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Setting\StoreTabSetting.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Setting\TaskSystemSetting.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Setting\TeamInfoSetting.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Setting\WalkingDeadStoreSetting.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\ShellInterface.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Util\BroadcastManager.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Util\ClientCmdMgr.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Util\ClientDataReport.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Util\FriendManager.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Util\LanguageManager.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Util\MailManager.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Util\RankManager.cpp">
+      <ObjectFileName>$(IntDir)/Util/RankManager.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Util\RedDotManager.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Util\SkillEffectManager.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Util\ThumbUpRecordManager.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Util\UICommon.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\Util\UserManager.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\game.cpp" />
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\dev\client\Src\iniFileObj.cpp" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
