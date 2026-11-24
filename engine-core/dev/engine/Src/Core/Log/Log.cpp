@@ -9,7 +9,7 @@
 #include "ConsoleLogSink.h"
 #include "VSConsoleLogSink.h"
 #include "FileLogSink.h"
-#include "Util\UThread.h"
+#include "Util/UThread.h"
 
 #if LORD_PLATFORM == LORD_PLATFORM_WINDOWS
 #include "windows.h"

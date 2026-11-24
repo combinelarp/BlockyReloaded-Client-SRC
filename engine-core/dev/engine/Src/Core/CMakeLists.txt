@@ -93,6 +93,8 @@ link_libraries(
   libFreeType.a
   libz.a
   libg3logger.a
+  pthread
+  dl
 )
 endif()
 
