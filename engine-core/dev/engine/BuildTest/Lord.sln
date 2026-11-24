@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CMakePredefinedTargets", "CMakePredefinedTargets", "{CDCB90B9-12EA-3096-94F4-061DA6159CB8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Engine", "Engine", "{133060E0-3538-389E-A58E-FFF23F20C740}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ALL_BUILD", "ALL_BUILD.vcxproj", "{937A4E2D-B4C1-3033-83CC-FD99B71729C8}"
+	ProjectSection(ProjectDependencies) = postProject
+		{FCC5CEC2-71E9-3EC4-B2DE-CC4A66D995C9} = {FCC5CEC2-71E9-3EC4-B2DE-CC4A66D995C9}
+		{258BF7FB-E684-36A5-93E4-3C387214FE12} = {258BF7FB-E684-36A5-93E4-3C387214FE12}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Core", "Src\Core\Core.vcxproj", "{FCC5CEC2-71E9-3EC4-B2DE-CC4A66D995C9}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GLES2Render", "Src\GLES2Render\GLES2Render.vcxproj", "{258BF7FB-E684-36A5-93E4-3C387214FE12}"
+	ProjectSection(ProjectDependencies) = postProject
+		{FCC5CEC2-71E9-3EC4-B2DE-CC4A66D995C9} = {FCC5CEC2-71E9-3EC4-B2DE-CC4A66D995C9}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+		MinSizeRel|Win32 = MinSizeRel|Win32
+		RelWithDebInfo|Win32 = RelWithDebInfo|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{937A4E2D-B4C1-3033-83CC-FD99B71729C8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{937A4E2D-B4C1-3033-83CC-FD99B71729C8}.Release|Win32.ActiveCfg = Release|Win32
+		{937A4E2D-B4C1-3033-83CC-FD99B71729C8}.MinSizeRel|Win32.ActiveCfg = MinSizeRel|Win32
+		{937A4E2D-B4C1-3033-83CC-FD99B71729C8}.RelWithDebInfo|Win32.ActiveCfg = RelWithDebInfo|Win32
+		{FCC5CEC2-71E9-3EC4-B2DE-CC4A66D995C9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FCC5CEC2-71E9-3EC4-B2DE-CC4A66D995C9}.Debug|Win32.Build.0 = Debug|Win32
+		{FCC5CEC2-71E9-3EC4-B2DE-CC4A66D995C9}.Release|Win32.ActiveCfg = Release|Win32
+		{FCC5CEC2-71E9-3EC4-B2DE-CC4A66D995C9}.Release|Win32.Build.0 = Release|Win32
+		{FCC5CEC2-71E9-3EC4-B2DE-CC4A66D995C9}.MinSizeRel|Win32.ActiveCfg = MinSizeRel|Win32
+		{FCC5CEC2-71E9-3EC4-B2DE-CC4A66D995C9}.MinSizeRel|Win32.Build.0 = MinSizeRel|Win32
+		{FCC5CEC2-71E9-3EC4-B2DE-CC4A66D995C9}.RelWithDebInfo|Win32.ActiveCfg = RelWithDebInfo|Win32
+		{FCC5CEC2-71E9-3EC4-B2DE-CC4A66D995C9}.RelWithDebInfo|Win32.Build.0 = RelWithDebInfo|Win32
+		{258BF7FB-E684-36A5-93E4-3C387214FE12}.Debug|Win32.ActiveCfg = Debug|Win32
+		{258BF7FB-E684-36A5-93E4-3C387214FE12}.Debug|Win32.Build.0 = Debug|Win32
+		{258BF7FB-E684-36A5-93E4-3C387214FE12}.Release|Win32.ActiveCfg = Release|Win32
+		{258BF7FB-E684-36A5-93E4-3C387214FE12}.Release|Win32.Build.0 = Release|Win32
+		{258BF7FB-E684-36A5-93E4-3C387214FE12}.MinSizeRel|Win32.ActiveCfg = MinSizeRel|Win32
+		{258BF7FB-E684-36A5-93E4-3C387214FE12}.MinSizeRel|Win32.Build.0 = MinSizeRel|Win32
+		{258BF7FB-E684-36A5-93E4-3C387214FE12}.RelWithDebInfo|Win32.ActiveCfg = RelWithDebInfo|Win32
+		{258BF7FB-E684-36A5-93E4-3C387214FE12}.RelWithDebInfo|Win32.Build.0 = RelWithDebInfo|Win32
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{937A4E2D-B4C1-3033-83CC-FD99B71729C8} = {CDCB90B9-12EA-3096-94F4-061DA6159CB8}
+		{FCC5CEC2-71E9-3EC4-B2DE-CC4A66D995C9} = {133060E0-3538-389E-A58E-FFF23F20C740}
+		{258BF7FB-E684-36A5-93E4-3C387214FE12} = {133060E0-3538-389E-A58E-FFF23F20C740}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7AF23314-BC4F-3492-976F-6C5BB37B7B1D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

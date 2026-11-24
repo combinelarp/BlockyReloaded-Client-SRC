@@ -111,11 +111,11 @@ elseif(UNIX)
 
 		set(LORD_STATIC TRUE CACHE BOOL "Forcing static build for linux" FORCE)
 		
-		set(CMAKE_C_FLAGS_RELEASE "${CMAKE_C_FLAGS_RELEASE} -std=c++11 --no-warnings -D_FORCE_INLINES")
-		set(CMAKE_CXX_FLAGS_RELEASE "${CMAKE_CXX_FLAGS_RELEASE} -std=c++11 --no-warnings -D_FORCE_INLINES")
-		set(CMAKE_C_FLAGS_DEBUG "${CMAKE_C_FLAGS_DEBUG} -std=c++11 -Wall -Wfatal-errors -Wextra -D_FORCE_INLINES")
-		set(CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG} -std=c++11 -Wall -Wfatal-errors -Wextra -D_FORCE_INLINES")
-		set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS_RELEASE} -fPIE -D_GLIBCXX_USE_CXX11_ABI=0 -std=c++11 --no-warnings -D_FORCE_INLINES")
+		set(CMAKE_C_FLAGS_RELEASE "${CMAKE_C_FLAGS_RELEASE} -std=c++14 --no-warnings -D_FORCE_INLINES")
+		set(CMAKE_CXX_FLAGS_RELEASE "${CMAKE_CXX_FLAGS_RELEASE} -std=c++14 --no-warnings -D_FORCE_INLINES")
+		set(CMAKE_C_FLAGS_DEBUG "${CMAKE_C_FLAGS_DEBUG} -std=c++14 -Wall -Wfatal-errors -Wextra -D_FORCE_INLINES")
+		set(CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG} -std=c++14 -Wall -Wfatal-errors -Wextra -D_FORCE_INLINES")
+		set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS_RELEASE} -fPIE -D_GLIBCXX_USE_CXX11_ABI=0 -std=c++14 --no-warnings -D_FORCE_INLINES")
 	endif()
 	
 else()

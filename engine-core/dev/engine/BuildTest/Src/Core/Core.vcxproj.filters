@@ -1,0 +1,1935 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Actor\ActorManager.cpp">
+      <Filter>Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Actor\ActorMeshTexModify.cpp">
+      <Filter>Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Actor\ActorObject.cpp">
+      <Filter>Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Actor\ActorTemplateData.cpp">
+      <Filter>Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Actor\MergeMeshManager.cpp">
+      <Filter>Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Actor\SkillAnimSystem.cpp">
+      <Filter>Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Actor\SkillAttack.cpp">
+      <Filter>Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Actor\SkillSystem.cpp">
+      <Filter>Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Anim\AABBKeyFrame.cpp">
+      <Filter>Anim</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Anim\AnimBlender.cpp">
+      <Filter>Anim</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Anim\AnimKeyFrame.cpp">
+      <Filter>Anim</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Anim\AnimManager.cpp">
+      <Filter>Anim</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Anim\AnimState.cpp">
+      <Filter>Anim</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Anim\AnimTrack.cpp">
+      <Filter>Anim</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Anim\Animation.cpp">
+      <Filter>Anim</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Anim\Bone.cpp">
+      <Filter>Anim</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Anim\SRTTrack.cpp">
+      <Filter>Anim</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Anim\Skeleton.cpp">
+      <Filter>Anim</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Anim\SkeletonManager.cpp">
+      <Filter>Anim</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Audio\SoundEngine.cpp">
+      <Filter>Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Audio\SoundManager.cpp">
+      <Filter>Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Audio\SoundSystem.cpp">
+      <Filter>Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\CoreStd.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Effect\EffectController.cpp">
+      <Filter>Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Effect\EffectIElement.cpp">
+      <Filter>Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Effect\EffectKeyFrame.cpp">
+      <Filter>Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Effect\EffectLayer.cpp">
+      <Filter>Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Effect\EffectLayer2DBillBoard.cpp">
+      <Filter>Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Effect\EffectLayer2DGrid.cpp">
+      <Filter>Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Effect\EffectLayer3DBillBoard.cpp">
+      <Filter>Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Effect\EffectLayer3DGrid.cpp">
+      <Filter>Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Effect\EffectLayerChild.cpp">
+      <Filter>Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Effect\EffectLayerColumn.cpp">
+      <Filter>Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Effect\EffectLayerLighting.cpp">
+      <Filter>Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Effect\EffectLayerModel.cpp">
+      <Filter>Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Effect\EffectLayerParaboloidal.cpp">
+      <Filter>Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Effect\EffectLayerParticles.cpp">
+      <Filter>Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Effect\EffectLayerParticlesCube.cpp">
+      <Filter>Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Effect\EffectLayerParticlesCurve.cpp">
+      <Filter>Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Effect\EffectLayerParticlesCylinder.cpp">
+      <Filter>Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Effect\EffectLayerParticlesPoint.cpp">
+      <Filter>Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Effect\EffectLayerParticlesSphere.cpp">
+      <Filter>Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Effect\EffectLayerRope.cpp">
+      <Filter>Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Effect\EffectLayerSkin.cpp">
+      <Filter>Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Effect\EffectLayerSpriteAnimation.cpp">
+      <Filter>Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Effect\EffectLayerTrail.cpp">
+      <Filter>Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Effect\EffectMaterial.cpp">
+      <Filter>Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Effect\EffectParticle.cpp">
+      <Filter>Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Effect\EffectParticleControllerSet.cpp">
+      <Filter>Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Effect\EffectPerlinNoise.cpp">
+      <Filter>Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Effect\EffectRender.cpp">
+      <Filter>Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Effect\EffectSystem.cpp">
+      <Filter>Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Effect\EffectSystemManager.cpp">
+      <Filter>Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Geom\Box.cpp">
+      <Filter>Geom</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Geom\Box3.cpp">
+      <Filter>Geom</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Geom\Circle.cpp">
+      <Filter>Geom</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Geom\Frustum.cpp">
+      <Filter>Geom</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Geom\GeomDef.cpp">
+      <Filter>Geom</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Geom\GeomLib.cpp">
+      <Filter>Geom</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Geom\ParamSurface.cpp">
+      <Filter>Geom</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Geom\Plane.cpp">
+      <Filter>Geom</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Geom\Ray.cpp">
+      <Filter>Geom</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Geom\Rect.cpp">
+      <Filter>Geom</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Geom\SimpleSpline.cpp">
+      <Filter>Geom</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Geom\Sphere.cpp">
+      <Filter>Geom</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Geom\Triangle.cpp">
+      <Filter>Geom</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Image\Color.cpp">
+      <Filter>Image</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Image\Image.cpp">
+      <Filter>Image</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Image\ImageCodec.cpp">
+      <Filter>Image</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Image\ImageCodecMgr.cpp">
+      <Filter>Image</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Image\ImageResampler.cpp">
+      <Filter>Image</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Image\PVRCodec.cpp">
+      <Filter>Image</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Image\PixelConversions.cpp">
+      <Filter>Image</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Image\PixelFormat.cpp">
+      <Filter>Image</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Log\ConsoleLogSink.cpp">
+      <Filter>Log</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Log\FileLogSink.cpp">
+      <Filter>Log</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Log\Log.cpp">
+      <Filter>Log</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Log\LogConfig.cpp">
+      <Filter>Log</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Log\VSConsoleLogSink.cpp">
+      <Filter>Log</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\LordSystem.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Math\Curve.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Math\IntMath.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Math\LordMath.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Math\MathLib.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Math\Matrix4.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Math\Quaternion.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Math\Vector2.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Math\Vector3.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Math\Vector4.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Memory\BinnedMalloc.cpp">
+      <Filter>Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Memory\LordMemory.cpp">
+      <Filter>Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Memory\MemAllocObj.cpp">
+      <Filter>Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Memory\MemDefaultAlloc.cpp">
+      <Filter>Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Memory\MemHarveysAlloc.cpp">
+      <Filter>Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Memory\MemNedPooling.cpp">
+      <Filter>Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Memory\MemTracker.cpp">
+      <Filter>Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Model\Mesh.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Model\MeshManager.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Model\SkinnedMesh.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Model\SubMesh.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Navigation\DetourAlloc.cpp">
+      <Filter>Navigation</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Navigation\DetourCommon.cpp">
+      <Filter>Navigation</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Navigation\DetourCrowd.cpp">
+      <Filter>Navigation</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Navigation\DetourLocalBoundary.cpp">
+      <Filter>Navigation</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Navigation\DetourNavMesh.cpp">
+      <Filter>Navigation</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Navigation\DetourNavMeshBuilder.cpp">
+      <Filter>Navigation</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Navigation\DetourNavMeshQuery.cpp">
+      <Filter>Navigation</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Navigation\DetourNode.cpp">
+      <Filter>Navigation</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Navigation\DetourObstacleAvoidance.cpp">
+      <Filter>Navigation</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Navigation\DetourPathCorridor.cpp">
+      <Filter>Navigation</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Navigation\DetourPathQueue.cpp">
+      <Filter>Navigation</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Navigation\DetourProximityGrid.cpp">
+      <Filter>Navigation</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Navigation\InputGeometryData.cpp">
+      <Filter>Navigation</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Navigation\Navigation.cpp">
+      <Filter>Navigation</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Navigation\Recast.cpp">
+      <Filter>Navigation</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Navigation\RecastAlloc.cpp">
+      <Filter>Navigation</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Navigation\RecastArea.cpp">
+      <Filter>Navigation</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Navigation\RecastContour.cpp">
+      <Filter>Navigation</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Navigation\RecastFilter.cpp">
+      <Filter>Navigation</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Navigation\RecastLayers.cpp">
+      <Filter>Navigation</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Navigation\RecastMesh.cpp">
+      <Filter>Navigation</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Navigation\RecastMeshDetail.cpp">
+      <Filter>Navigation</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Navigation\RecastRasterization.cpp">
+      <Filter>Navigation</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Navigation\RecastRegion.cpp">
+      <Filter>Navigation</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Object\Buffer.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Object\ConfigFile.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Object\Exception.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Object\Root.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Object\Singleton.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Object\Time.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Render\DepthStencilView.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Render\FrameBuffer.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Render\GPUBuffer.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Render\Material.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Render\OceanRender.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Render\RenderInput.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Render\RenderQueue.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Render\RenderStage.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Render\RenderState.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Render\RenderTarget.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Render\RenderTargetView.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Render\RenderView.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Render\Renderable.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Render\Renderer.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Render\Shader.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Render\ShaderProgram.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Render\ShaderProgramManager.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Render\Texture.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Render\TextureManager.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Render\Viewport.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Resource\APKFileSystem.cpp">
+      <Filter>Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Resource\ArchiveManager.cpp">
+      <Filter>Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Resource\DataStream.cpp">
+      <Filter>Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Resource\FileMD5Storage.cpp">
+      <Filter>Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Resource\FileResourceManager.cpp">
+      <Filter>Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Resource\FileSystem.cpp">
+      <Filter>Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Resource\LordThread.cpp">
+      <Filter>Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Resource\Resource.cpp">
+      <Filter>Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Resource\ResourceGroupManager.cpp">
+      <Filter>Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Resource\ResourceManager.cpp">
+      <Filter>Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Resource\ResourceMonitor.cpp">
+      <Filter>Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Resource\ResourcePack.cpp">
+      <Filter>Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Resource\Threading.cpp">
+      <Filter>Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Resource\ZipArchive.cpp">
+      <Filter>Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Scene\Camera.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Scene\CameraAnimation.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Scene\CameraMain.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Scene\DecalProjector.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Scene\DynamicPointLightSimple.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Scene\GameObject.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Scene\GroupObject.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Scene\HazeObject.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Scene\LightmapMgr.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Scene\ModelEntity.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Scene\NavigatePoint.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Scene\Scene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Scene\SceneActorObject.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Scene\SceneEffectObject.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Scene\SceneLightObject.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Scene\SceneLightObject_dir.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Scene\SceneLightObject_spot.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Scene\SceneManager.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Scene\SceneNode.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Scene\SkeletonMeshObject.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Scene\SkinedEntity.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Scene\StaticMeshObject.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Scene\StaticMeshObject_Normal.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Scene\StaticMeshObject_Normal_noFog.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Scene\TerrainBlock.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Scene\TerrainEntity.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Scene\TerrainMeshObject.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Scene\TextureSet.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Scene\Zoom.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Stream\ZlibStream.cpp">
+      <Filter>Stream</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Tessolator\BatchRenderQueue.cpp">
+      <Filter>Tessolator</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Tessolator\BatchRenderable.cpp">
+      <Filter>Tessolator</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Tessolator\EnchantRenderQueue.cpp">
+      <Filter>Tessolator</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Tessolator\FontRenderQueue.cpp">
+      <Filter>Tessolator</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Tessolator\FontRenderable.cpp">
+      <Filter>Tessolator</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Tessolator\FxRenderQueue.cpp">
+      <Filter>Tessolator</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Tessolator\FxRenderable.cpp">
+      <Filter>Tessolator</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Tessolator\ItemRenderQueue.cpp">
+      <Filter>Tessolator</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Tessolator\ItemRenderable.cpp">
+      <Filter>Tessolator</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Tessolator\LineRenderQueue.cpp">
+      <Filter>Tessolator</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Tessolator\LineRenderable.cpp">
+      <Filter>Tessolator</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Tessolator\RasterizerHelpRender.cpp">
+      <Filter>Tessolator</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Tessolator\SkinedRenderQueue.cpp">
+      <Filter>Tessolator</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Tessolator\SkinedRenderable.cpp">
+      <Filter>Tessolator</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Tessolator\TessManager.cpp">
+      <Filter>Tessolator</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Tessolator\TessMaterial.cpp">
+      <Filter>Tessolator</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Tessolator\TessObject.cpp">
+      <Filter>Tessolator</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Tessolator\TessRenderQueue.cpp">
+      <Filter>Tessolator</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Tessolator\TessRenderable.cpp">
+      <Filter>Tessolator</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\UI\EditBoxImplWin.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\UI\GUIAction.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\UI\GUIActionKeyFrame.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\UI\GUIAnimatMgr.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\UI\GUIAnimate.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\UI\GUIAnimateController.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\UI\GUIAnimateWindow.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\UI\GUIBoundSlot.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\UI\GUIBubbleContain.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\UI\GUIButton.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\UI\GUICell.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\UI\GUICheckBox.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\UI\GUICoolDownRender.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\UI\GUICoordConverter.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\UI\GUIEditBox.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\UI\GUIEvent.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\UI\GUIEventArgs.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\UI\GUIEventSet.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\UI\GUIFlyAnimateController.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\UI\GUIFont.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\UI\GUIFontManager.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\UI\GUIFreeTypeFont.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\UI\GUIGlobalEventSet.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\UI\GUIGridView.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\UI\GUIHyperlinkSystem.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\UI\GUIImage.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\UI\GUIImageset.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\UI\GUIImagesetManager.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\UI\GUIInputBox.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\UI\GUILayout.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\UI\GUIListBox.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\UI\GUIListHorizontalBox.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\UI\GUIMultiLineEdit.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\UI\GUIMutualNonoverlappingGroup.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\UI\GUIPageView.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\UI\GUIPixmapFont.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\UI\GUIProgressBar.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\UI\GUIRadioButton.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\UI\GUIRenderHexagon.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\UI\GUIRenderImage.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\UI\GUIRenderManager.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\UI\GUIRenderTargetManager.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\UI\GUIRenderText.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\UI\GUISceneMap.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\UI\GUIScriptModule.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\UI\GUIScroll.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\UI\GUIScrollCard.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\UI\GUIScrollablePane.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\UI\GUIScrolledContainer.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\UI\GUISlider.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\UI\GUIStaticImage.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\UI\GUIStaticText.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\UI\GUIString.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\UI\GUISubscriberSlot.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\UI\GUISystem.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\UI\GUITableView.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\UI\GUIWindow.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\UI\GUIWindowFactory.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\UI\GUIWindowManager.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\UI\Touch.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\UI\Win32InputBox.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Util\AssertX.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Util\CPUTimer.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Util\CSVReader.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Util\CSVWriter.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Util\ClientSocket.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Util\Encoder.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Util\LightmapRasterizer.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Util\PathUtil.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Util\QueryObject.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Util\StringUtil.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Util\UThread.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Actor\ActorManager.h">
+      <Filter>Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Actor\ActorMeshTexModify.h">
+      <Filter>Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Actor\ActorObject.h">
+      <Filter>Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Actor\ActorTemplateData.h">
+      <Filter>Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Actor\MergeMeshManager.h">
+      <Filter>Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Actor\SkillAnimSystem.h">
+      <Filter>Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Actor\SkillAttack.h">
+      <Filter>Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Actor\SkillSystem.h">
+      <Filter>Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Anim\AABBKeyFrame.h">
+      <Filter>Anim</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Anim\AnimBlender.h">
+      <Filter>Anim</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Anim\AnimKeyFrame.h">
+      <Filter>Anim</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Anim\AnimManager.h">
+      <Filter>Anim</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Anim\AnimState.h">
+      <Filter>Anim</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Anim\AnimTrack.h">
+      <Filter>Anim</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Anim\Animation.h">
+      <Filter>Anim</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Anim\Bone.h">
+      <Filter>Anim</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Anim\SRTTrack.h">
+      <Filter>Anim</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Anim\Skeleton.h">
+      <Filter>Anim</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Anim\SkeletonManager.h">
+      <Filter>Anim</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Audio\SoundDef.h">
+      <Filter>Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Audio\SoundEngine.h">
+      <Filter>Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Audio\SoundManager.h">
+      <Filter>Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Audio\SoundSystem.h">
+      <Filter>Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Core.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\CoreDef.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\CoreStd.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\CoreTool.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Effect\EffectController.h">
+      <Filter>Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Effect\EffectHeader.h">
+      <Filter>Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Effect\EffectIElement.h">
+      <Filter>Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Effect\EffectKeyFrame.h">
+      <Filter>Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Effect\EffectLayer.h">
+      <Filter>Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Effect\EffectLayer2DBillBoard.h">
+      <Filter>Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Effect\EffectLayer2DGrid.h">
+      <Filter>Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Effect\EffectLayer3DBillBoard.h">
+      <Filter>Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Effect\EffectLayer3DGrid.h">
+      <Filter>Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Effect\EffectLayerChild.h">
+      <Filter>Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Effect\EffectLayerColumn.h">
+      <Filter>Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Effect\EffectLayerLighting.h">
+      <Filter>Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Effect\EffectLayerModel.h">
+      <Filter>Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Effect\EffectLayerParaboloidal.h">
+      <Filter>Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Effect\EffectLayerParticles.h">
+      <Filter>Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Effect\EffectLayerParticlesCube.h">
+      <Filter>Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Effect\EffectLayerParticlesCurve.h">
+      <Filter>Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Effect\EffectLayerParticlesCylinder.h">
+      <Filter>Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Effect\EffectLayerParticlesPoint.h">
+      <Filter>Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Effect\EffectLayerParticlesSphere.h">
+      <Filter>Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Effect\EffectLayerRope.h">
+      <Filter>Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Effect\EffectLayerSkin.h">
+      <Filter>Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Effect\EffectLayerSpriteAnimation.h">
+      <Filter>Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Effect\EffectLayerTrail.h">
+      <Filter>Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Effect\EffectMaterial.h">
+      <Filter>Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Effect\EffectParticle.h">
+      <Filter>Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Effect\EffectParticleControllerSet.h">
+      <Filter>Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Effect\EffectPerlinNoise.h">
+      <Filter>Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Effect\EffectRender.h">
+      <Filter>Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Effect\EffectSystem.h">
+      <Filter>Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Effect\EffectSystemManager.h">
+      <Filter>Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Functional\AssignOp.h">
+      <Filter>Functional</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Functional\IdentityOp.h">
+      <Filter>Functional</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Functional\LordDeleteOp.h">
+      <Filter>Functional</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Functional\LordNewOp.h">
+      <Filter>Functional</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Functional\StaticCastOp.h">
+      <Filter>Functional</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Geom\Box.h">
+      <Filter>Geom</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Geom\Box3.h">
+      <Filter>Geom</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Geom\Circle.h">
+      <Filter>Geom</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Geom\Frustum.h">
+      <Filter>Geom</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Geom\GeomDef.h">
+      <Filter>Geom</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Geom\GeomLib.h">
+      <Filter>Geom</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Geom\ParamSurface.h">
+      <Filter>Geom</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Geom\Plane.h">
+      <Filter>Geom</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Geom\Ray.h">
+      <Filter>Geom</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Geom\Rect.h">
+      <Filter>Geom</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Geom\SimpleSpline.h">
+      <Filter>Geom</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Geom\Sphere.h">
+      <Filter>Geom</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Geom\Triangle.h">
+      <Filter>Geom</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Image\Color.h">
+      <Filter>Image</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Image\Image.h">
+      <Filter>Image</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Image\ImageCodec.h">
+      <Filter>Image</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Image\ImageCodecMgr.h">
+      <Filter>Image</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Image\ImageResampler.h">
+      <Filter>Image</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Image\PVRCodec.h">
+      <Filter>Image</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Image\PixelConversions.h">
+      <Filter>Image</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Image\PixelFormat.h">
+      <Filter>Image</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Log\ConsoleLogSink.h">
+      <Filter>Log</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Log\FileLogSink.h">
+      <Filter>Log</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Log\Log.h">
+      <Filter>Log</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Log\LogConfig.h">
+      <Filter>Log</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Log\VSConsoleLogSink.h">
+      <Filter>Log</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\LordConfig.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\LordSystem.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Math\Curve.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Math\IntMath.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Math\LordMath.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Math\MathLib.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Math\Matrix4.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Math\Quaternion.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Math\Vector2.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Math\Vector3.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Math\Vector4.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Memory\BinnedMalloc.h">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Memory\LordMemory.h">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Memory\MemAllocDef.h">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Memory\MemAllocObj.h">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Memory\MemDefaultAlloc.h">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Memory\MemHarveysAlloc.h">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Memory\MemNedPooling.h">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Memory\MemSTLAlloc.h">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Memory\MemTracker.h">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Model\Mesh.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Model\MeshManager.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Model\SkinnedMesh.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Model\SubMesh.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Navigation\DetourAlloc.h">
+      <Filter>Navigation</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Navigation\DetourAssert.h">
+      <Filter>Navigation</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Navigation\DetourCommon.h">
+      <Filter>Navigation</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Navigation\DetourCrowd.h">
+      <Filter>Navigation</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Navigation\DetourLocalBoundary.h">
+      <Filter>Navigation</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Navigation\DetourNavMesh.h">
+      <Filter>Navigation</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Navigation\DetourNavMeshBuilder.h">
+      <Filter>Navigation</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Navigation\DetourNavMeshQuery.h">
+      <Filter>Navigation</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Navigation\DetourNode.h">
+      <Filter>Navigation</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Navigation\DetourObstacleAvoidance.h">
+      <Filter>Navigation</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Navigation\DetourPathCorridor.h">
+      <Filter>Navigation</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Navigation\DetourPathQueue.h">
+      <Filter>Navigation</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Navigation\DetourProximityGrid.h">
+      <Filter>Navigation</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Navigation\DetourStatus.h">
+      <Filter>Navigation</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Navigation\InputGeometryData.h">
+      <Filter>Navigation</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Navigation\Navigation.h">
+      <Filter>Navigation</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Navigation\Recast.h">
+      <Filter>Navigation</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Navigation\RecastAlloc.h">
+      <Filter>Navigation</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Navigation\RecastAssert.h">
+      <Filter>Navigation</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Object\Buffer.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Object\ConfigFile.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Object\Exception.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Object\Root.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Object\Singleton.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Object\Time.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Render\DepthStencilView.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Render\FrameBuffer.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Render\GPUBuffer.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Render\Material.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Render\MaterialDesc.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Render\OceanRender.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Render\RenderInput.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Render\RenderQueue.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Render\RenderStage.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Render\RenderState.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Render\RenderTarget.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Render\RenderTargetView.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Render\RenderView.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Render\Renderable.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Render\Renderer.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Render\Shader.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Render\ShaderProgram.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Render\ShaderProgramManager.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Render\Texture.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Render\TextureManager.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Render\Viewport.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Resource\APKFileSystem.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Resource\Archive.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Resource\ArchiveFactory.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Resource\ArchiveManager.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Resource\DataStream.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Resource\FileMD5Storage.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Resource\FileResourceManager.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Resource\FileSystem.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Resource\LordThread.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Resource\Resource.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Resource\ResourceGroupManager.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Resource\ResourceManager.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Resource\ResourceMonitor.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Resource\ResourcePack.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Resource\Threading.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Resource\ZipArchive.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Scene\Camera.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Scene\CameraAnimation.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Scene\CameraMain.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Scene\DecalProjector.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Scene\DynamicPointLightSimple.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Scene\GameObject.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Scene\GroupObject.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Scene\HazeObject.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Scene\LightmapMgr.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Scene\ModelEntity.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Scene\NavigatePoint.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Scene\Scene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Scene\SceneActorObject.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Scene\SceneDefine.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Scene\SceneEffectObject.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Scene\SceneLightObject.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Scene\SceneLightObject_dir.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Scene\SceneLightObject_spot.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Scene\SceneManager.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Scene\SceneNode.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Scene\SkeletonMeshObject.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Scene\SkinedEntity.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Scene\StaticMeshObject.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Scene\StaticMeshObject_Normal.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Scene\StaticMeshObject_Normal_noFog.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Scene\TerrainBlock.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Scene\TerrainEntity.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Scene\TerrainMeshObject.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Scene\TextureSet.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Scene\Zoom.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Std\LibrarySupport.h">
+      <Filter>Std</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Std\chrono.h">
+      <Filter>Std</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Std\cpp14\chrono.h">
+      <Filter>Std\cpp14</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Std\cpp14\iterator.h">
+      <Filter>Std\cpp14</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Std\cpp14\type_traits.h">
+      <Filter>Std\cpp14</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Std\cpp14\utility.h">
+      <Filter>Std\cpp14</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Std\cpp17\chrono.h">
+      <Filter>Std\cpp17</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Std\cpp17\functional.h">
+      <Filter>Std\cpp17</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Std\cpp17\iterator.h">
+      <Filter>Std\cpp17</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Std\cpp17\shared_mutex.h">
+      <Filter>Std\cpp17</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Std\cpp17\string_view.h">
+      <Filter>Std\cpp17</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Std\cpp17\tuple.h">
+      <Filter>Std\cpp17</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Std\cpp17\type_traits.h">
+      <Filter>Std\cpp17</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Std\functional.h">
+      <Filter>Std</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Std\iterator.h">
+      <Filter>Std</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Std\shared_mutex.h">
+      <Filter>Std</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Std\string_view.h">
+      <Filter>Std</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Std\tuple.h">
+      <Filter>Std</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Std\type_traits.h">
+      <Filter>Std</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Std\utility.h">
+      <Filter>Std</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Stream\ZlibStream.h">
+      <Filter>Stream</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Tessolator\BatchRenderQueue.h">
+      <Filter>Tessolator</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Tessolator\BatchRenderable.h">
+      <Filter>Tessolator</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Tessolator\EnchantRenderQueue.h">
+      <Filter>Tessolator</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Tessolator\FontRenderQueue.h">
+      <Filter>Tessolator</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Tessolator\FontRenderable.h">
+      <Filter>Tessolator</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Tessolator\FxRenderQueue.h">
+      <Filter>Tessolator</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Tessolator\FxRenderable.h">
+      <Filter>Tessolator</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Tessolator\ItemRenderQueue.h">
+      <Filter>Tessolator</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Tessolator\ItemRenderable.h">
+      <Filter>Tessolator</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Tessolator\LineRenderQueue.h">
+      <Filter>Tessolator</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Tessolator\LineRenderable.h">
+      <Filter>Tessolator</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Tessolator\RasterizerHelpRender.h">
+      <Filter>Tessolator</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Tessolator\SkinedRenderQueue.h">
+      <Filter>Tessolator</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Tessolator\SkinedRenderable.h">
+      <Filter>Tessolator</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Tessolator\TessHeader.h">
+      <Filter>Tessolator</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Tessolator\TessManager.h">
+      <Filter>Tessolator</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Tessolator\TessMaterial.h">
+      <Filter>Tessolator</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Tessolator\TessObject.h">
+      <Filter>Tessolator</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Tessolator\TessRenderQueue.h">
+      <Filter>Tessolator</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Tessolator\TessRenderable.h">
+      <Filter>Tessolator</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\TypeDef.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\UI\EditBoxImplWin.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\UI\GUIAction.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\UI\GUIActionKeyFrame.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\UI\GUIAnimatMgr.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\UI\GUIAnimate.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\UI\GUIAnimateController.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\UI\GUIAnimateWindow.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\UI\GUIBoundSlot.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\UI\GUIBubbleContain.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\UI\GUIButton.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\UI\GUICell.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\UI\GUICheckBox.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\UI\GUICommonDef.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\UI\GUICoolDownRender.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\UI\GUICoordConverter.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\UI\GUIEditBox.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\UI\GUIEditBoxImpl.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\UI\GUIEvent.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\UI\GUIEventArgs.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\UI\GUIEventSet.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\UI\GUIFlyAnimateController.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\UI\GUIFont.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\UI\GUIFontGlyph.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\UI\GUIFontManager.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\UI\GUIFreeFunctionSlot.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\UI\GUIFreeTypeFont.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\UI\GUIFunctorCopySlot.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\UI\GUIFunctorPointerSlot.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\UI\GUIFunctorReferenceBinder.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\UI\GUIFunctorReferenceSlot.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\UI\GUIGlobalEventSet.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\UI\GUIGridView.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\UI\GUIHyperlinkSystem.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\UI\GUIImage.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\UI\GUIImageset.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\UI\GUIImagesetManager.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\UI\GUIInputBox.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\UI\GUIIteratorBase.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\UI\GUILayout.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\UI\GUIListBox.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\UI\GUIListHorizontalBox.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\UI\GUIMemberFunctionSlot.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\UI\GUIMultiLineEdit.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\UI\GUIMutualNonoverlappingGroup.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\UI\GUIPageView.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\UI\GUIPixmapFont.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\UI\GUIProgressBar.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\UI\GUIRadioButton.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\UI\GUIRefCounted.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\UI\GUIRenderHexagon.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\UI\GUIRenderImage.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\UI\GUIRenderManager.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\UI\GUIRenderTargetManager.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\UI\GUIRenderText.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\UI\GUISceneMap.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\UI\GUIScriptModule.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\UI\GUIScroll.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\UI\GUIScrollCard.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\UI\GUIScrollablePane.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\UI\GUIScrolledContainer.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\UI\GUISlider.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\UI\GUISlotFunctorBase.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\UI\GUIStaticImage.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\UI\GUIStaticText.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\UI\GUIString.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\UI\GUISubscriberSlot.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\UI\GUISystem.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\UI\GUITableView.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\UI\GUIUDim.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\UI\GUIWindow.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\UI\GUIWindowFactory.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\UI\GUIWindowManager.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\UI\Touch.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\UI\Win32InputBox.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Util\AssertX.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Util\CPUTimer.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Util\CSVReader.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Util\CSVWriter.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Util\ClientSocket.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Util\Encoder.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Util\Finally.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Util\LightMapRasterizer.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Util\PathUtil.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Util\QueryObject.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Util\StringUtil.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\Core\Util\UThread.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Actor">
+      <UniqueIdentifier>{EBBF1705-5489-3C01-A94C-30AF37D117B7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Anim">
+      <UniqueIdentifier>{45A4D745-E799-322F-9389-E73D1B36357D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Audio">
+      <UniqueIdentifier>{8EF1AB61-E7AE-3856-BA4E-EA5A48C32316}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{C4235EB4-FE7E-387A-BC1E-5ABBC777A3EF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Effect">
+      <UniqueIdentifier>{EE68BC2E-C725-3BCF-976E-A75CB4D024B6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Functional">
+      <UniqueIdentifier>{86057C17-87E5-3C84-8820-48273BD4599E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Geom">
+      <UniqueIdentifier>{220E2393-6A4D-34F1-9C13-56EF560F4388}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Image">
+      <UniqueIdentifier>{7F80D07A-6A4E-3AE3-A2B2-E7FE9317A620}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Log">
+      <UniqueIdentifier>{8C82B80B-372F-3DB8-B3D2-A49BC6D68FB8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math">
+      <UniqueIdentifier>{C5DB2B9F-6439-3899-A8C5-882EE9062867}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Memory">
+      <UniqueIdentifier>{171E097E-1145-3958-B2B7-C4546BB868B7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Model">
+      <UniqueIdentifier>{D649D3AD-1D01-3D18-A672-CD87A0F62E4F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Navigation">
+      <UniqueIdentifier>{1C5B4688-FC6F-3B7A-A6BB-30F0DE8B1A4B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object">
+      <UniqueIdentifier>{EED50FFE-6061-32C9-B1C2-8E93077A63B6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render">
+      <UniqueIdentifier>{6BC9D76D-2CCD-30DC-8F50-03D11586822F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource">
+      <UniqueIdentifier>{43F2CC1C-5C39-3522-913F-B5F91B71A43F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{7993C14A-D2FF-3163-BE31-DF92C452CB9C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Std">
+      <UniqueIdentifier>{8BC2EFE6-5B9B-31A2-90CD-3B89A4CD0446}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Std\cpp14">
+      <UniqueIdentifier>{DE9A253A-F44A-3418-B87F-DDD02F7B879C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Std\cpp17">
+      <UniqueIdentifier>{DD4491A6-61DF-38A6-92C5-6C3824211791}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Stream">
+      <UniqueIdentifier>{0031C3A6-ED1F-3FA5-BE2A-3BFC984572F2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tessolator">
+      <UniqueIdentifier>{C20FB420-306B-321E-BE03-73BF5C894B10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{8142BC2C-A1C7-3C8D-B594-8D295528C82E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util">
+      <UniqueIdentifier>{68FF3E26-8723-3272-9B48-2CF8FDBB9C45}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

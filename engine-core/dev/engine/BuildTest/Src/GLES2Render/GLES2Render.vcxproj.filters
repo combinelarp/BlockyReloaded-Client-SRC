@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\GLES2Render\GLES2DepthStencilView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\GLES2Render\GLES2FrameBuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\GLES2Render\GLES2GPUBuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\GLES2Render\GLES2Loader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\GLES2Render\GLES2Mapping.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\GLES2Render\GLES2RenderInput.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\GLES2Render\GLES2RenderState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\GLES2Render\GLES2RenderStd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\GLES2Render\GLES2RenderTarget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\GLES2Render\GLES2RenderTargetView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\GLES2Render\GLES2Renderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\GLES2Render\GLES2Shader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\GLES2Render\GLES2ShaderProgram.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\GLES2Render\GLES2ShaderProgramManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\GLES2Render\GLES2Texture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\GLES2Render\GLES2TextureLoaderHelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\GLES2Render\GLES2TextureManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\GLES2Render\GLES2DepthStencilView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\GLES2Render\GLES2FrameBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\GLES2Render\GLES2GPUBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\GLES2Render\GLES2Loader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\GLES2Render\GLES2Mapping.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\GLES2Render\GLES2Render.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\GLES2Render\GLES2RenderInput.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\GLES2Render\GLES2RenderState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\GLES2Render\GLES2RenderStd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\GLES2Render\GLES2RenderTarget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\GLES2Render\GLES2RenderTargetView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\GLES2Render\GLES2Renderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\GLES2Render\GLES2Shader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\GLES2Render\GLES2ShaderProgram.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\GLES2Render\GLES2ShaderProgramManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\GLES2Render\GLES2Texture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\GLES2Render\GLES2TextureLoaderHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\SandboxOL\engine-10068\engine-core\dev\engine\Src\GLES2Render\GLES2TextureManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{44C1DF44-FD56-39AD-88BF-D6F7C9D0733E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{E4066E9A-B674-3E9F-989C-1A42B5B1E85E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
