@@ -1,6 +1,8 @@
 #ifndef __ANVIL_HEADER__
 #define __ANVIL_HEADER__
 
+#include <mutex>
+#include <shared_mutex>
 #include <array>
 #include <functional>
 #include "Core.h"
