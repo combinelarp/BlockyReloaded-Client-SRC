@@ -158,8 +158,6 @@ else()
 	
 	endif()
 
-option(LORD_STATIC "Static build" TRUE)
-
 message(STATUS "Set Environment Variables...")
 
 if(CMAKE_BUILD_TYPE STREQUAL "")
