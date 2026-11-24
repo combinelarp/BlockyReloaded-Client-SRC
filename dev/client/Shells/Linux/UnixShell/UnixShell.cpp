@@ -277,7 +277,7 @@ static bool CreateX11Window()
     // Center window
     XMoveWindow(g_display, g_window, 100, 100);
 
-    XStoreName(g_display, g_window, "LinShell-Blockman");
+    XStoreName(g_display, g_window, "UnixShell-Blockman");
 
     // Set the app icon from unixshell.ico
     SetWindowIcon();
