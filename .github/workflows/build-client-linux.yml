@@ -42,5 +42,4 @@ jobs:
           name: client-linux-build
           path: |
             dev/client/Bin/
-            dev/client/build/
           if-no-files-found: ignore
