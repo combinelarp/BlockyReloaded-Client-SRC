@@ -2,7 +2,7 @@
 #include <sys/stat.h>
 #include "FileResourceManager.h"
 #include "Util/CSVWriter.h"
-#include "Util\ChecksumUtil.h"
+#include "Util/ChecksumUtil.h"
 #include "Util/PathUtil.h"
 #include "Util/Finally.h"
 #include <cerrno>
